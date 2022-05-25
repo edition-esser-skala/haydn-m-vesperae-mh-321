@@ -1,0 +1,28 @@
+composer:
+  last: Haydn
+  first: Johann Michael
+title: Vesperæ de Dominca
+id: MH 321
+genre: vesper
+scoring: S, A, T, B (solo), S, A, T, B (coro), fl, 2 ob, 2 fag, 2 cor (C basso), 2 clno (C), timp (C–G), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 448
+    date: 1782-07-22
+    rism: 456009468
+    url: https://mdz-nbn-resolving.de/details:bsb00084981
+    license: cc-by-sa-nc-4.0
+    principal: true
+  B1:
+    siglum: F-Pn
+    shelfmark: D-5672
+    date: 1820–1840
+    rism: 840016639
+    url: https://gallica.bnf.fr/ark:/12148/btv1b10072949m
+    license: custom (free for non-commercial purposes)
+imslp:
+parts:
+  cor12: Corno I, II in C basso
+  ottoni: Clarino I, II in C\\Timpani in C–G
