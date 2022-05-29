@@ -235,3 +235,115 @@ ConfiteborCornoI = {
     f f d d c4 r\fermata \bar "|." %114 finis
   }
 }
+
+BeatusCornoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoBeatus
+    c'2.~\pE
+    c4 c c
+    \pa g2.~
+    g4 g g \pd
+    g \pao g\f r %5
+    r \pao g\f r
+    R2.*5 %11
+    r4 r8 \pa c\f g g \pd
+    g4 r8 \pa c g g \pd
+    g4 c\p c
+    c2. %15
+    r4 \pa g\fE g \pd
+    g \pa c, c
+    c2.~
+    c4 \pd c' c
+    c g g %20
+    g r r
+    r r d'
+    c c c
+    d r d
+    d r r %25
+    r \pa d d \pd
+    d r \pao d
+    d r \pa d
+    d8 g, c c d d
+    g,4 \pd r r %30
+    R2.*3
+    r4 r \pa g\pE
+    g \pd r r %35
+    R2.*9 %44
+    r4 r e'\fE %45
+    e r r
+    R2.*4 %50
+    r4 r c\fE
+    e e r
+    c2.~\p
+    c\f
+    c4 r r %55
+    R2.*3
+    c2.~\p
+    c %60
+    c4 r r
+    R2.*6 %67
+    r4 r c\f
+    c r c
+    c \pa d c %70
+    c \pd r r
+    R2.*4 %75
+    \pa c2.\fE
+    d \pd
+    R2.*2
+    e4 e8 e e e %80
+    e4 r8 e e e
+    e4 r8 e e e
+    e4 \pao d e
+    c r r
+    R2.*6 %90
+    c2.~\p
+    c
+    d~
+    d
+    c4 r r %95
+    R2.
+    r4 c\p c
+    c2.
+    r4 \pa g\fE g \pd
+    g r r %100
+    R2.*14 %114
+    r4 r \pao d'\fE %115
+    d r \pao d
+    d8 d16 d d4 r
+    R2.*5 %122
+    e4 r r
+    e r r
+    e r r %125
+    e2.
+    \pa r4 e\pE fis \pd
+    e\fE \pa e, e
+    e \pd r r
+    R2.*4 %133
+    \dashedSpanner c'2.~\p\crescin
+    c2. %135
+    c4\f r r
+    c r r
+    R2.*2
+    r4 r e %140
+    e d r
+    c2.~\p
+    c4 c c
+    \pa g2.~
+    g4 g g \pd %145
+    g \pao g\f r
+    r \pao g\f r
+    R2.*5 %152
+    r4 r8 \pa c\fE g g \pd
+    g4 r8 \pa c g g \pd
+    g4 r8 c c c %155
+    c4 r8 c c c
+    c4 c2
+    r4 \pa g g \pd
+    g c d
+    c c d %160
+    c r g\p
+    g2.~
+    g4 r r\fermata \bar "|." %163 finis
+  }
+}

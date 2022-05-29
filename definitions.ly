@@ -6,8 +6,30 @@
 \include "ees.ly"
 
 
+apapci = #(make-music
+  'CrescendoEvent
+  'span-direction START
+  'span-type 'text
+  'span-text (markup (#:normal-text #:small "a poco à poco cresc. in")))
+
+eSpanner = #(make-music
+  'CrescendoEvent
+  'span-direction START
+  'span-type 'text
+  'span-text (markup (#:normal-text #:small "  e")))
+
+crescin = #(make-music
+  'CrescendoEvent
+  'span-direction START
+  'span-type 'text
+  'span-text (markup (#:normal-text #:small "cresc. in")))
+
+dashedSpanner = \override DynamicTextSpanner.style = #'dashed-line
+
+
 tempoDixit = \tempoMarkup "Allegro aperto"
 tempoConfitebor = \tempoMarkup "Allegro non troppo"
+tempoBeatus = \tempoMarkup "Allegro moderato"
 
 
 \include "notes/ob1.ly"

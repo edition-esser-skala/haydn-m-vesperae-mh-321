@@ -295,3 +295,173 @@ ConfiteborViolinoII = {
     c as' c, as' f, d' f, d' es4 r\fermata \bar "|." %114 finis
   }
 }
+
+BeatusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \tempoBeatus
+    h4\p h4. d8
+    \appoggiatura c4 h4. h8(\fz g) g'
+    fis4\p fis4. a8
+    \appoggiatura g4 fis4. d8(\fz c) fis
+    g(\p h) a(\f fis) d(\p fis) %5
+    g( h) a(\f fis) d(\p fis)
+    g( d) r4 g,
+    g4. c8 e c
+    a4 r8 d d d
+    d fis g a h4~ %10
+    h8 g a( c) a,( c)
+    h4 r8 h'16\f g c a fis c
+    h8( d) r h'16 g c a fis c
+    r8 h\p g( h) h'( d)
+    c4( h16) g'(\f fis) g-! h( g) d-! g-! %15
+    g( e) d-! c-! h d g, h c a fis a
+    g h, h h h d d d d h h h
+    a d d d d fis fis fis fis a a a
+    g h h h h d d d d h h h
+    e c c c c a' a a a a, a a %20
+    g h h h h d d c h8 d
+    c h e, e fis fis
+    g a16 h c d e fis g8 g
+    cis,, d16 e fis g a h cis8 cis
+    a16 fis g a h cis d e fis8 fis, %25
+    g e d d cis cis
+    d4 r8 fis16 d g e' cis g
+    fis8( a) r fis16 d g e' cis g
+    fis8 d'16 fis h,8 g'16 h e,,8 cis'16 e
+    d4 fis,8(\p d) a'( fis) %30
+    g( d) g'( h,) g( e)
+    d( fis) fis'( cis) d( fis,)
+    e'( g,) g( e) a,( e')
+    e4 d8 fis\fz d a
+    fis'\pE e d e fis g %35
+    a d, fis a fis a
+    a( fis) g( h) d( h)
+    h4. d,8 d( g)
+    g4 fis8 fis( a) d
+    <fis, a,> q q2 %40
+    q8 q q2
+    <fis a>8 q q2
+    a8 a a fis fis16 a g fis
+    e8 g g e e e
+    e4 dis8 fis(\f dis) fis %45
+    h, h4\p h h8~
+    h h4 h h8
+    c c4 c c8
+    d d4 d d8
+    f-\critnote e4 e e8 %50
+    e\fE e'4 ais, ais8
+    h4 <fis dis' h'> r
+    g,8([\p h]) d! d4 d8
+    g,([\f h]) d d4 d8
+    c4 e4.\p g8 %55
+    \appoggiatura f4 e4. e8(\fz c) c'
+    h4\p h4. d8
+    \appoggiatura c4 h4. g8(\fzE f) h,
+    c(\pE e) h(\f d) g(\p h,)
+    c( e) h(\f d) g(\p h,) %60
+    c4 r c
+    c4. f8 a f
+    d4. <d g,>8 q q
+    g4 r8 g g g
+    g4 r8 g g g %65
+    g4 r r
+    e8( c') a( f') d,( f)
+    e4 r8 e'16\f c f d h f
+    e4 r8 e'16 c f d h f
+    e8 g'16 e d8 f16 a d,,8 h'16 d %70
+    c4 e,8(\p g) f( e)
+    e e e e f f
+    f4 \slurDashed e8( g) f( e) \slurSolid
+    e e e e f f
+    f4 e8( c) g'( e) %75
+    c'4\f r r
+    c'16 c c c a a a a fis! fis fis fis
+    dis dis a a fis fis a a fis' fis dis dis
+    h' h e, e c' c c, c a a a' a
+    g g h h e, e g g h, h dis dis %80
+    e4 r8 g,16 e a fis fis' a,
+    g8( h) r g16 e a fis fis' a,
+    g8 g'16 e c'8 a,16 fis a'8 fis16 dis
+    e4 h,\p h
+    h2.~ %85
+    h4 a' a
+    a2 fis4
+    e8 e-! g-! e-! h'-! g-!
+    a4 fis e
+    e dis d16\f e c d %90
+    h4 d\p d
+    d2.~
+    d4 <fis d'> q
+    q2 d4
+    d16\f d\p d d dis dis dis dis e\f e\p e e %05
+    b b b b a\f a a a c c c c
+    h8 h\p g( h) h'( d)
+    c4( h16) g'(\f fis) g-! h( g) d-! g-!
+    g( e) d-! c-! h d g, h c a fis a
+    g4 r8 h,(\p d) g %100
+    g4( fis) a'8 g
+    fis e d2
+    d4. g,8( h) h,
+    h4( a) a'8 g
+    fis e d2 %105
+    d4. d8( h') g
+    fis4( e) r
+    a2.
+    a4. fis8( g) e
+    d4( cis) r %110
+    a2.
+    a4. fis'8 fis fis
+    fis fis fis e d fis
+    g h a fis e g
+    fis4 r8 fis16\f d g e' cis g %115
+    fis8( a) r fis16 d g e' cis g
+    fis8 a16 d fis8 d16 fis a8 fis16 d
+    c! a fis a c a a' c, a' fis c a
+    e a c a h gis h e gis e h e
+    d! h gis h d h h' d, h' gis d h %120
+    fis h d h cis ais cis fis ais fis cis fis
+    eis4-! fis-! r
+    r8 fis( d) d r d
+    r16 fis eis fis d8 d r d
+    r h'( d,) d r d %125
+    r16 h' ais h d,8 d r fis
+    r cis\p r h r ais
+    r \appoggiatura ais'16 h8\f r \appoggiatura eis,16 fis8 r \appoggiatura cis16 d8
+    h4 r8 d(\p h fis)
+    fis-! e'-! cis( ais) fis( cis) %130
+    c c' a( fis) \dashedSpanner d(\apapci c) \noBreak
+    \mvTr g-\critnote g'' d( h) g( d)
+    d d' a( fis) d( a')
+    g\f\eSpanner h' g( d) h( g)
+    c\ff c' g( e) c( g) %135
+    e g16 c e8 g16 e c8 e
+    g, e'16 c d8 g16 d g,8 d'
+    e, h''16 d, c8 e16 c a'8 a
+    a c,16 a g8 g'16 e h'8 g,
+    a h c d e g, %140
+    d' d, d16 e c d h c a h
+    g4 h4.\p d8
+    \appoggiatura c4 h4. h8(\fz g) g'
+    fis4\p fis4. a8
+    \appoggiatura g4 fis4. d8(\fz c) fis %145
+    g(\p h) a(\f fis) d(\p fis)
+    g( h) a(\f fis) d(\p fis)
+    g( d) r4 g,
+    g4. c8 e c
+    a4 r8 d d d %150
+    d fis g a h4~
+    h8 g a( c) a,( c)
+    h4 r8 h'16\f g c a d, c'
+    h4 r8 h16 g c a d, c'
+    h4 r8 d16 h f' d g, f' %155
+    e4 r8 c16 g e' c g e'
+    d h d g h g d g h g d g
+    g e d c h d g, h c a fis a
+    g8 h16 g d8 d d'( fis,)
+    g h16 g d8 d d'( fis,) %160
+    g h,\p g( h) h( d)
+    c2.(
+    h4) r r\fermata \bar "|." %163 finis
+  }
+}

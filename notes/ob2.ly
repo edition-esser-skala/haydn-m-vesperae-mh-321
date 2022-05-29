@@ -139,3 +139,123 @@ DixitOboeII = {
     c r r\fermata \bar "|." %168 finis
   }
 }
+
+BeatusOboeII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \tempoBeatus
+    R2.
+    r4 h'\pE g
+    fis r r
+    r a'4. a,8
+    g4 a(\f d,)\p %5
+    r a'(\f d,)\p
+    R2.*5 %11
+    r4 r8 g\f a fis
+    g4 r8 g a fis
+    g4 r h\p
+    c( h) d\f %15
+    e16 c h a g4 fis
+    g r r
+    R2.
+    r4 h g
+    c a fis %20
+    g h h8 d
+    c h h4 a
+    g r d
+    e2.
+    a2 fis4 %25
+    h8 e d4 cis
+    d r8 d e cis
+    d4 r8 d e cis
+    d a h4 g
+    fis r r %30
+    R2.*3
+    r4 r fis\pE
+    fis r r %35
+    R2.*9 %44
+    r4 r fis\fE %45
+    e r r
+    d2.\p
+    c4 r c
+    d2.
+    f8 e e2 %50
+    e4\fE ais ais
+    h dis r
+    R2.
+    d,!
+    c4 r r %55
+    g'2.~\p
+    g~
+    g
+    R2.*9 %67
+    r4 r8 c\f d h
+    c4 r8 c d h
+    c4 d f, %70
+    e e8(\p g) f( e)
+    e2 f4
+    f e8 g f e
+    e2 f4
+    f e r %75
+    g\f r r
+    fis2.
+    a4 h c
+    h e, e
+    e2 dis4 %80
+    e r8 e fis a
+    g4 r8 e fis a
+    g h a4 fis
+    e r r
+    R2.*6 %90
+    d2.~\p
+    d
+    fis~
+    fis2 a4
+    g r r %95
+    R2.*2
+    r4 h\f d
+    e16 c h a g4 fis
+    g r r %100
+    R2.*14 %114
+    r4 r8 d'\fE e cis %115
+    d4 r8 d e cis
+    d4 a8 d, fis a
+    a4 a8 a a a
+    a4 gis e8 gis
+    h4 h8 h h h %120
+    h4 ais ais8 ais
+    h4 ais r
+    fis2.~
+    fis2 h4
+    h2 g4 %125
+    h2.
+    R
+    d,4 d fis
+    d r r
+    R2.*6 %135
+    c'2.\ffE
+    c4 h2
+    h4 a a
+    a g g
+    a8 h c d e g, %140
+    g4 fis r
+    R2.
+    r4 h\pE g
+    fis r r
+    r a'4. a,8 %145
+    g4 a(\f d,)\p
+    r a'(\f d,)\p
+    R2.*5 %152
+    r4 r8 g\fE a fis
+    g4 r8 g a fis
+    g4 r8 h d d %155
+    c4 r8 c e c
+    h4 h d
+    e16 c h a g4 fis
+    g r fis
+    g r fis %160
+    g r h\p
+    a2.(
+    g4) r r\fermata \bar "|." %163 finis
+  }
+}

@@ -4,7 +4,7 @@ composer:
 title: Vesperæ de Dominca
 id: MH 321
 genre: vesper
-scoring: S, A, T, B (solo), S, A, T, B (coro), [fl], 2 ob, fag, 2 cor (C basso/\flat E), 2 clno (C), 3 trb, timp (C–G), 2 vl, b, org
+scoring: S, A, T, B (solo), S, A, T, B (coro), [fl], 2 ob, fag, 2 cor (C basso/\flat E/G), 2 clno (C), 3 trb, timp (C–G), 2 vl, b, org
 license: cc-by-sa-4.0
 sources:
   A1:
@@ -24,6 +24,6 @@ sources:
     license: custom (free for non-commercial purposes)
 imslp:
 parts:
-  cor12: Corno I, II in C basso/\flat E
+  cor12: Corno I, II in C basso/\flat E/G
   ottoni: Clarino I, II in C\\Timpani in C–G
   trb123: Trombone I, II, III

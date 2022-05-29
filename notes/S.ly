@@ -465,3 +465,206 @@ ConfiteborSopranoLyrics = \lyricmode {
   men, a -- men, a --
   men, a -- men. %114 finis
 }
+
+BeatusSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \autoBeamOff \tempoBeatus
+    R2.*18 %18
+    r4 \mvTr d'\fE^\tutti h
+    e c a %20
+    h d g8 fis
+    e d d4( c)
+    h r h8 h
+    cis4. cis8 cis cis
+    d4 a4. d8 %25
+    h g fis4( e)
+    d r r
+    R2.*18 %45
+    \mvTr e2.\p^\tuttiE
+    e~
+    e8 f f4 r
+    gis gis gis
+    gis8([ a)] a4 r %50
+    e'\f e2
+    dis4 r r
+    R2.*2
+    r8 \mvTr g,\pE^\solo e([ g)] c([ e)] %55
+    \appoggiatura d4 c c r
+    r8 d g,([ h)] d([ f)]
+    \appoggiatura e4 d d r8 d
+    e c f([ d)] d d
+    e8. g16 f4 r8 f %60
+    e[( d)] c h a gis
+    gis([ h)] a4 f'8 d
+    c8. h16 h4 r
+    c8([ g)] g2
+    d'8([ f,)] f2 %65
+    e8([ g)] c([ e)] g4
+    \appoggiatura f16 e8 d16([ c)] d4..\trill c16
+    c4 r r
+    R2.*2 %70
+    r4 \mvTr c8([\p^\tutti h)] a([ g)]
+    g4. g8 g g
+    g4( c8[ h)] a([ g)]
+    g2 g4
+    g g r %75
+    e'8\f e e e e e
+    dis2.~
+    dis2 dis4
+    e c a
+    g2( fis4) %80
+    e r r
+    R2.*18 %99
+    r4 \mvTr d'4.(\pE^\solo h8) %100
+    h4 a a~
+    a8[ h] c([ d)] e([ c)]
+    c8. h16 h4 r
+    R2.*2 %105
+    r4 h4. e8
+    d4 cis a8 h
+    cis d e([ fis)] g([ e)]
+    e8. fis16 fis4 r
+    R2.*2 %111
+    r4 d2
+    d4. e8 fis4
+    g8([ e)] d4( cis8.) d16
+    d4 r \mvTr a\fE^\tutti %115
+    fis' d a
+    fis' d r
+    c! c c
+    c h r
+    d!8 d16 d d8 d d d %120
+    d4 cis fis8 fis
+    eis4 fis r
+    h,2 h4
+    h4. h8 h4
+    h2 h4 %125
+    h2 d4
+    cis\p h( ais)
+    h r r
+    r fis^\solo fis8 fis
+    fis2 fis4 %130
+    r fis2
+    g4. d8 d4
+    r a' a
+    h4. h8 h4
+    c2 g4 %135
+    \mvTrh e'2\ffE^\tutti e4
+    e d d8 d
+    d8. c16 c8 c c c
+    c4 h h8 h
+    c([ d)] e fis g h, %140
+    h4 a r
+    R2.*11 %152
+    r4 r \mvTr c\fE^\tuttiE
+    h r c
+    h r f' %155
+    e r e
+    d d8([ h d g]
+    e8) d16([ c)] h4( a)
+    g d'( fis,)
+    g d'( fis,) %160
+    g r r
+    R2.
+    R\fermata \bar "|." %164 finis
+  }
+}
+
+BeatusSopranoLyrics = \lyricmode {
+  Po -- tens, %19
+  po -- tens in %20
+  ter -- ra e -- rit
+  se -- men e --
+  ius: Ge -- ne --
+  ra -- ti -- o re --
+  cto -- rum be -- %25
+  ne -- di -- ce --
+  tur.
+
+  Mi -- %46
+  se --
+  ri -- cors
+  et mi -- se --
+  ra -- tor %50
+  et iu --
+  stus.
+
+  Iu -- cun -- dus %55
+  ho -- mo,
+  iu -- cun -- dus
+  ho -- mo qui
+  mi -- se -- re -- tur et
+  com -- mo -- dat, dis -- %60
+  po -- net ser -- mo -- nes
+  su -- os in iu --
+  di -- ci -- o:
+  Qui -- a
+  in __ ae -- %65
+  ter -- num non
+  com -- mo -- ve -- bi --
+  tur.
+
+  In __ me -- %71
+  mo -- ri -- a ae --
+  ter -- na __
+  e -- rit
+  iu -- stus: %75
+  Ab au -- di -- ti -- o -- ne
+  ma --
+  la
+  non, non ti --
+  me -- %80
+  bit.
+
+  Di -- %100
+  sper -- sit de --
+  dit pau --
+  pe -- ri -- bus.
+
+  Cor -- nu %106
+  e -- ius, cor -- nu
+  e -- ius ex -- al --
+  ta -- bi -- tur
+
+  in %112
+  glo -- ri -- a,
+  in __ glo -- ri --
+  a. Pec -- %115
+  ca -- tor vi --
+  de -- bit
+  et i -- ra --
+  sce -- tur,
+  den -- ti -- bus su -- is fre -- met, %120
+  fre -- met et ta --
+  be -- scet:
+  De -- si --
+  de -- ri -- um
+  pec -- ca -- %125
+  to -- rum
+  per -- i --
+  bit.
+  Glo -- ri -- a
+  Pa -- tri %130
+  et
+  Fi -- li -- o
+  et Spi --
+  ri -- tu -- i
+  San -- cto. %135
+  Si -- cut
+  e -- rat in prin --
+  ci -- pi -- o et nunc et
+  sem -- per et in
+  sae -- cu -- la sae -- cu -- %140
+  lo -- rum,
+
+  a -- %153
+  men, a --
+  men, a -- %155
+  men, a --
+  men, a --
+  men, a --
+  men, a --
+  men, a -- %160
+  men. %161 finis
+}

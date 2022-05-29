@@ -479,3 +479,221 @@ ConfiteborAltoLyrics = \lyricmode {
   men, a -- men, a --
   men, a -- men. %114 finis
 }
+
+BeatusAlto = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \autoBeamOff \tempoBeatus
+    r8 \mvTr d\pE^\solo h([ d)] g([ h)]
+    \appoggiatura a4 g2 r4
+    r8 a d,([ fis)] a([ c)]
+    \appoggiatura h4 a2 r4
+    h c4. a8 %5
+    h8. d16 c2
+    h8 a g([ fis)] e([ dis)]
+    dis4( e) c'8([ a)]
+    \appoggiatura g fis4 fis2
+    g8[( a h c] d4) %10
+    \appoggiatura c16 h8([ a16 g)] a2\trill
+    g4 r r
+    R2.*6 %18
+    r4 \mvTr g\fE^\tutti g
+    g fis fis %20
+    g g g8 g
+    g h h4( a)
+    g r d8 d
+    e4. e8 e e
+    d4 d fis %25
+    g8 e d4( cis)
+    d r r
+    R2.*18 %45
+    \mvTr h2.\p^\tuttiE
+    d!2 d4
+    c2 r4
+    f f f
+    f8([ e)] e4 r %50
+    ais\f ais2
+    h4 r r
+    R2.*18 %70
+    r4 \mvTr e,8([\p^\tuttiE g)] f([ e)]
+    e4. e8 f f
+    f4( e8[ g)] f([ e)]
+    e2 f4
+    f e r %75
+    g8\f g g g g c
+    a2.~
+    a4 h c
+    h a e
+    e2( dis4) %80
+    e r r
+    R2.*18 %99
+    r4 \mvTr h'4.(\pE^\solo g8) %100
+    g4 fis fis~
+    fis8[ g] a([ h)] c([ a)]
+    a8. g16 g4 r
+    R2.*2 %105
+    r4 d4. g8
+    fis4 e cis8 d
+    e fis g([ a)] h([ cis)]
+    cis8. d16 d4 r
+    R2.*2 %111
+    r4 r a
+    h4. fis8 fis4
+    e8([ g)] fis4( e8.) d16
+    d4 r \mvTr g8([\fE^\tutti e)] %115
+    a4 fis g8([ e)]
+    a4 fis r
+    a a a
+    a gis r
+    gis8 gis16 gis gis8 gis gis gis %120
+    fis4 fis ais8 ais
+    h4 ais r
+    h2 h4
+    h4. h8 h4
+    h2 h4 %125
+    h2 fis4
+    e\p d( cis)
+    h r r
+    r d^\solo d8 d
+    e2 e4 %130
+    r d2
+    d4. g8 g4
+    r d d
+    d4. d8 g4
+    g2 g4 %135
+    \mvTrh g2\ffE^\tutti g4
+    g g g8 g
+    e8. e16 e8 e a a
+    a4 g e8 e
+    e4 a8 a g g %140
+    g4 fis r
+    r8 \mvTr d([\pE^\solo h d g h)]
+    \appoggiatura a4 g2 r4
+    r8 a([ d, fis a c)]
+    \appoggiatura h4 a2 r4 %145
+    h c4. a8
+    h8.[ d16] \appoggiatura d8 c4 r
+    h8([ a g fis)] e([ dis)]
+    dis4 e c'8[ a]
+    \appoggiatura g fis4 fis2 %150
+    g8[ a h c] d4
+    \appoggiatura c16 h8 a16([ g)] a2\trill
+    g4 r \mvTr a8([\fE^\tutti fis)]
+    g4 r a8([ fis)]
+    g4 r g %155
+    g r g
+    g g2~
+    g16[ c] h([ a)] g4( fis)
+    g h,( c)
+    h h( c) %160
+    h r r
+    R2.
+    R\fermata \bar "|." %163 finis
+  }
+}
+
+BeatusAltoLyrics = \lyricmode {
+  Be -- a -- tus
+  vir,
+  be -- a -- tus
+  vir
+  qui ti -- met %5
+  Do -- mi -- num:
+  In man -- da -- tis __
+  e -- ius
+  vo -- let,
+  vo -- %10
+  let __ ni --
+  mis.
+
+  Po -- tens, %19
+  po -- tens in %20
+  ter -- ra e -- rit
+  se -- men e --
+  ius: Ge -- ne --
+  ra -- ti -- o re --
+  cto -- rum be -- %25
+  ne -- di -- ce --
+  tur.
+
+  Mi -- %46
+  se -- ri --
+  cors
+  et mi -- se --
+  ra -- tor %50
+  et iu --
+  stus.
+
+  In __ me -- %71
+  mo -- ri -- a ae --
+  ter -- na __
+  e -- rit
+  iu -- stus: %75
+  Ab au -- di -- ti -- o -- ne
+  ma --
+  _ la
+  non, non ti --
+  me -- %80
+  bit.
+
+  Di -- %100
+  sper -- sit de --
+  dit pau --
+  pe -- ri -- bus.
+
+  Cor -- nu %106
+  e -- ius, cor -- nu
+  e -- ius ex -- al --
+  ta -- bi -- tur
+
+  in %112
+  glo -- ri -- a,
+  in __ glo -- ri --
+  a. Pec -- %115
+  ca -- tor vi --
+  de -- bit
+  et i -- ra --
+  sce -- tur,
+  den -- ti -- bus su -- is fre -- met, %120
+  fre -- met et ta --
+  be -- scet:
+  De -- si --
+  de -- ri -- um
+  pec -- ca -- %125
+  to -- rum
+  per -- i --
+  bit.
+  Glo -- ri -- a
+  Pa -- tri %130
+  et
+  Fi -- li -- o
+  et Spi --
+  ri -- tu -- i
+  San -- cto. %135
+  Si -- cut
+  e -- rat in prin --
+  ci -- pi -- o et nunc et
+  sem -- per et in
+  sae -- cu -- la sae -- cu -- %140
+  lo -- rum,
+  a --
+  men,
+  a --
+  men, %145
+  a -- _ _
+  _ men,
+  a -- men,
+  a -- _ _
+  _ men, %150
+  a -- _
+  _ men, a --
+  men, a --
+  men, a --
+  men, a -- %155
+  men, a --
+  men, a --
+  men, a --
+  men, a --
+  men, a -- %160
+  men. %161 finis
+}
