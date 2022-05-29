@@ -149,3 +149,89 @@ DixitCornoII = {
     c,4 r r\fermata \bar "|." %168 finis
   }
 }
+
+ConfiteborCornoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoConfitebor
+    R1*5 %5
+    r8 d'\fE d d d c d d
+    g,4 r r2
+    d'4 r r2
+    g,4 r r d'8 d
+    g,4 r g, r %10
+    g r8 g' d' d d d
+    g,4 g g r
+    r2 r4 g
+    c,8 c' d c c g r e
+    e4 r e r %15
+    e r8 e e e e e
+    e4 e e r
+    e r e r
+    r8 d' d d d4 r
+    r e,8 e e4 r %20
+    r2 e4 r
+    R1
+    r8 e e e e4 r
+    R1*2 %25
+    c'2\p c
+    c g
+    c4. f8 e4. d8
+    c4 r8 g\f c,4 r
+    R1*3 %32
+    g'2\p c,
+    c c
+    c4 r r2
+    R1*3 %38
+    d'2\p d
+    d r
+    R1*5 %45
+    r4 c,8\fE c c2
+    r8 c c c c2
+    r4 c' c r
+    R1*2 %50
+    r4 c c r
+    r2 c,4 r
+    r2 c'4 r
+    r r8 c c4 r
+    R1*15 %69
+    r4 c2\fE c4 %70
+    r2 r4 c8 c,
+    c4 c r2
+    r4 c'8 c c c16 c c8 c16 c
+    e8 e r4 e, r
+    e r d' r %75
+    g, r c r
+    c r r2
+    R1*6 %83
+    r2 c,4\p c
+    c1~ %85
+    c
+    R1*2
+    r4 c8\fE c g'4 c8 c,
+    c4 r c r8 c %90
+    c4 r r2
+    g'4 r8 g c,4 r8 c'
+    d d d d g,4 r
+    r2 d'4 r
+    r2 g,4 r %95
+    r d'8 d g,4 r
+    g r c, r
+    g'8 d'4 c8 c g r g
+    c c c c g4 r
+    R1*2 %101
+    r2 g4\fE c,
+    c'8 c g g e4 r
+    r2 g4 r
+    r2 c,4 r %105
+    r8 c' c g e4 r
+    r2 g4 r
+    r r8 c c4 r
+    r8 e4 d c \appoggiatura e16 d8
+    c4 g e r %110
+    c r c c8\p c
+    c2. r8 c'\f
+    d d g, g g4 r8 c
+    d d g, g e4 r\fermata \bar "|." %114 finis
+  }
+}

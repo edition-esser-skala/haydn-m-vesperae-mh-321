@@ -276,3 +276,186 @@ DixitBassoLyrics = \lyricmode {
   men, a --
   men. %168 finis
 }
+
+ConfiteborBasso = {
+  \relative c {
+    \clef bass
+    \key es \major \time 4/4 \autoBeamOff \tempoConfitebor
+    R1*3
+    r2 r4 \mvTr es8\pE^\solo es
+    es'8. es16 d8 d c4 c %5
+    r8 \mvTr c\fE^\tutti a f b es, f4
+    b, r r2
+    R1*2
+    r4 f'4.^\tutti d8 b'4~ %10
+    b8 f d'4.( es8) c a
+    b8. b,16 b4 r b8 b
+    c4 b8 b as!4 as'
+    g8 g as a b b, r4
+    r8 es g4. es16 g c4~ %15
+    c8 g es' es es d16 d c8 h
+    c4 c, r es8 es
+    f8. f16 es4 d c
+    h2 h4 r8 h
+    c f16 f g8. g16 c,4 r %20
+    R1*5 %25
+    \mvTr c2\p^\tutti as4. as8
+    a4 r8 a b4. b8
+    b4. b8 b4( c8) d
+    es4 r r2
+    R1*2 %31
+    \mvTr c2\p^\tuttiE des4. des8
+    d4 r8 d es4. es8
+    es4. es8 es4( f8) g
+    as4 r r2 %35
+    R1*3
+    \mvTr as,2\p^\tuttiE b4. b8
+    h4 r8 h c4. c8 %40
+    c4. c8 c4( d!8) e
+    f4 r r2
+    R1*3 %45
+    r4 \mvTr es8\f^\tutti es es4 es
+    r8 es es es es4. es8
+    g4. g8 as4 r
+    f4. es16 f des4. b'16 as
+    g4. es8 as4~ as16[ f] as f %50
+    des8 b es8. es16 as,4 r
+    R1*12 %63
+    r2 r8 \mvTr c'\pE^\solo c4~
+    c8 h c des c b des4~ %65
+    des8[ c] c b b4( as)\trill
+    g r8 c, as'2
+    f4 f8 f d!2
+    h4 h'8 h c f, g4\trill
+    c, \mvTr c2\fE^\tutti c4 %70
+    r2 r4 c8 c
+    as8. as16 as4 r2
+    r4 as8 as as' as16 as as8 as
+    g g r g f f16 f f8 f
+    es8. es16 es4 es4. es8 %75
+    d8. d16 d4 c2\p
+    c b4\f c
+    d4. d8 g,4 r
+    R1*2 %80
+    \mvTr g'4.\pE^\solo g8 g4 g
+    f!2 d4 b~
+    b b8 b b4 b
+    b d8 d es es r4
+    es es2 es8 es %85
+    as,2 es'
+    f4 f2 g4
+    as as8 as b4. b8
+    es,4 \mvTr es8\fE^\tutti es16 es d4 es
+    r es8 es16 es as,8. as16 es'4 %90
+    r es8 c16 b a4. a8
+    b8. b16 b8 b es([ d)] c es
+    f2 b,4 r
+    R1*2 %95
+    r2 r4 b'8 b
+    as! as as as g8. g16 g8 g
+    d4 es b'8 b, r4
+    b2 b4 r
+    R1*2 %101
+    r8 \mvDl es'\fE^\tuttiE d c16 c b8 as g as
+    b4( b,) es r
+    R1*2 %105
+    r2 r4 es'8[( d]
+    c[ h c as]) b4 des8([ c]
+    b[ a b g]) as4 as8[ f]
+    d![ es c d] es[ b c] as
+    b([ as] b4) es r %110
+    R1
+    es2\p es4 r8 es([\f
+    as,)] as b4 g r8 c'([
+    as)] as b4 es, r\fermata \bar "|." %114 finis
+  }
+}
+
+ConfiteborBassoLyrics = \lyricmode {
+  In con -- %4
+  si -- li -- o iu -- sto -- rum, %5
+  et con -- gre -- ga -- ti -- o --
+  ne.
+
+  Ma -- gna, ma -- %10
+  gna o -- pe -- ra
+  Do -- mi -- ni: Ex -- qui --
+  si -- ta in o -- mnes
+  vo -- lun -- ta -- tes e -- ius.
+  Con -- fes -- si -- o et __ %15
+  ma -- gni -- fi -- cen -- ti -- a o -- pus
+  e -- ius et iu --
+  sti -- ti -- a e -- ius
+  ma -- net in
+  sae -- cu -- lum sae -- cu -- li. %20
+
+  Mi -- se -- ri -- %26
+  cors et mi -- se --
+  ra -- tor Do -- mi --
+  nus.
+
+  Mi -- se -- ri -- %32
+  cors et mi -- se --
+  ra -- tor Do -- mi --
+  nus. %35
+
+  Mi -- se -- ri -- %39
+  cors et mi -- se -- %40
+  ra -- tor Do -- mi --
+  nus.
+
+  Ut det il -- lis %46
+  hae -- re -- di -- ta -- tem
+  gen -- ti -- um.
+  O -- pe -- ra ma -- nu -- um
+  e -- ius ve -- ri -- tas %50
+  et iu -- di -- ci -- um.
+
+  Re -- dem -- %64
+  pti -- o -- nem mi -- sit po -- %65
+  pu -- lo su --
+  o, man -- da --
+  vit in ae -- ter --
+  num te -- sta -- men -- tum su --
+  um. San -- ctum %70
+  et ter --
+  ri -- bi -- le,
+  et ter -- ri -- bi -- le no -- men
+  e -- ius. I -- ni -- ti -- um sa -- pi --
+  en -- ti -- ae ti -- mor %75
+  Do -- mi -- ni, ti --
+  mor, ti -- mor
+  Do -- mi -- ni.
+
+  In -- tel -- le -- ctus %81
+  bo -- nus o --
+  mni -- bus fa -- ci --
+  en -- ti -- bus e -- um:
+  Lau -- da -- ti -- o %85
+  e -- ius
+  ma -- net in
+  sae -- cu -- lum sae -- cu --
+  li. Glo -- ri -- a Pa -- tri,
+  glo -- ri -- a Fi -- li -- o, %90
+  glo -- ri -- a et Spi --
+  ri -- tu -- i, Spi -- ri -- tu -- i
+  San -- cto.
+
+  Si -- cut %96
+  e -- rat in prin -- ci -- pi -- o et
+  nunc et sem -- per,
+  sem -- per
+
+  in sae -- cu -- la sae -- cu -- lo -- rum, %102
+  a -- men,
+
+  a -- %106
+  men, a --
+  men, a --
+  _ _ men,
+  a -- men, %110
+  a --
+  men, a --
+  men, a -- men, a --
+  men, a -- men. %114 finis
+}

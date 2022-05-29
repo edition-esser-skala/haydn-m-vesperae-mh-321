@@ -7,14 +7,19 @@
 
 
 tempoDixit = \tempoMarkup "Allegro aperto"
+tempoConfitebor = \tempoMarkup "Allegro non troppo"
 
 
 \include "notes/ob1.ly"
 \include "notes/ob2.ly"
+\include "notes/fag.ly"
 \include "notes/cor1.ly"
 \include "notes/cor2.ly"
 \include "notes/clno1.ly"
 \include "notes/clno2.ly"
+\include "notes/trb1.ly"
+\include "notes/trb2.ly"
+\include "notes/trb3.ly"
 \include "notes/timp.ly"
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

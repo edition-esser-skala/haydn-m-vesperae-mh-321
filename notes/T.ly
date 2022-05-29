@@ -276,3 +276,186 @@ DixitTenoreLyrics = \lyricmode {
   men, a --
   men. %168 finis
 }
+
+ConfiteborTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key es \major \time 4/4 \autoBeamOff \tempoConfitebor
+    R1*3
+    r2 r4 \mvTr es8\pE^\solo es
+    f8. f16 f8 f f4 f %5
+    r8 \mvTr f\fE^\tutti f a, b b b([ a)]
+    b4 r r2
+    R1*4 %11
+    r2 r4 d8 d
+    es4 b8 es c4 b
+    b8 es c c b b r4
+    R1*2 %16
+    r2 r4 c8 c
+    d8. d16 c4 h c
+    d2 d4 r8 d
+    c as16 as g8. g16 g4 r %20
+    R1*5 %25
+    \mvTr g2\p^\tutti c4. c8
+    c4 r8 c b4 b
+    b2~ b8 d es b
+    b4 r r2
+    R1*2 %31
+    \mvTr as2\p^\tuttiE as4. as8
+    as4 r8 as g4. b8
+    as4. des8 c4. b8
+    as4 r r2 %35
+    R1*3
+    \mvTr c2\p^\tuttiE des4. des8
+    d4 r8 d c4 c %40
+    c2~ c8 e f c
+    c4 r r2
+    R1*3 %45
+    r4 \mvTr es8\f^\tutti es g,4 as
+    r8 es' es c a4( b8) des
+    des4. c16([ b)] as4 r
+    c4. c16 c des4. des16 c
+    b4. g8 c4~ c16[ as] c as %50
+    des8 f es8. des16 c4 r
+    R1*2
+    r2 r8 \mvTr c\pE^\solo es4~
+    es8[ des] c b as8. b16 c4~ %55
+    c8[ b] as([ g)] f( f'4) es8
+    es4( des)\trill c r
+    c8 c c4. c16 c c8 c16 c
+    c8. c,16 c4 r f'~
+    f8[ es!] des c b des des4~ %60
+    des8[ c] c b as b as([ g)]
+    f4 r r2
+    R1*7 %69
+    r4 \mvTr c'2\fE^\tuttiE c4 %70
+    r2 r4 c8 c
+    c8. c16 c4 r2
+    r4 c8 c es es16 es es8 es
+    es d r h h h16 h h8 h
+    c8. c16 c4 a4. a8 %75
+    b!8. b16 b4 c2\p
+    a b4\f a
+    g8( d'4) d8 d4 r
+    R1*2 %80
+    \mvTr b4.\pE^\solo b8 b4 b
+    b2 b4 d~
+    d8[ es] f es d([ es)] f([ es)]
+    d4 b8 b b b r4
+    r2 r4 es %85
+    \appoggiatura des8 c4 c8 es \appoggiatura c b4 b8([ es)]
+    b2. b8 es
+    es4 c8 c b4. b8
+    b4 \mvTr b8\fE^\tutti b16 b b4 b
+    r es8 es16 es es8. es16 es4 %90
+    r b8 c16 c c8([ es)] d([ c)]
+    b d c d es([ f)] g es
+    d4( c) b r
+    R1*2 %95
+    r2 r4 d8 d
+    b b b b b8. b16 b8 b
+    b4. b8 b b r4
+    c2 f,4 r
+    R1*2 %101
+    r8 \mvDl es'\fE^\tuttiE f es16 es d8 d es c
+    b2 b4 r
+    R1*3 %106
+    es8([ g es c)] b4 f'~
+    f8 f f([ es)] es4 r
+    r8 es4 b b8([ g)] c
+    b2 b4 r %110
+    R1
+    es2\p es4 r8 b([\f
+    c)] c b4 b r8 es([
+    c)] c b4 b r\fermata \bar "|." %114 finis
+  }
+}
+
+ConfiteborTenoreLyrics = \lyricmode {
+  In con -- %4
+  si -- li -- o iu -- sto -- rum, %5
+  et con -- gre -- ga -- ti -- o --
+  ne.
+
+  Ex -- qui -- %12
+  si -- ta in o -- mnes
+  vo -- lun -- ta -- tes e -- ius.
+
+  Et iu -- %17
+  sti -- ti -- a e -- ius
+  ma -- net in
+  sae -- cu -- lum sae -- cu -- li. %20
+
+  Mi -- se -- ri -- %26
+  cors et mi -- se --
+  ra -- tor Do -- mi --
+  nus.
+
+  Mi -- se -- ri -- %32
+  cors et mi -- se --
+  ra -- tor Do -- mi --
+  nus. %35
+
+  Mi -- se -- ri -- %39
+  cors et mi -- se -- %40
+  ra -- tor Do -- mi --
+  nus.
+
+  Ut det il -- lis %46
+  hae -- re -- di -- ta -- tem
+  gen -- ti -- um.
+  O -- pe -- ra ma -- nu -- um
+  e -- ius ve -- ri -- tas %50
+  et iu -- di -- ci -- um.
+
+  Fi -- de -- %54
+  li -- a o -- mni -- a __ %55
+  man -- da -- ta
+  e -- ius,
+  con -- fir -- ma -- ta in sae -- cu -- lum
+  sae -- cu -- li, fa --
+  cta in ve -- ri -- ta -- %60
+  te et ae -- qui -- ta --
+  te.
+
+  San -- ctum %70
+  et ter --
+  ri -- bi -- le,
+  et ter -- ri -- bi -- le no -- men
+  e -- ius. I -- ni -- ti -- um sa -- pi --
+  en -- ti -- ae ti -- mor %75
+  Do -- mi -- ni, ti --
+  mor, ti -- mor
+  Do -- mi -- ni.
+
+  In -- tel -- le -- ctus %81
+  bo -- nus o --
+  mni -- bus fa -- ci --
+  en -- ti -- bus e -- um:
+  Lau -- %85
+  da -- ti -- o e -- ius
+  ma -- net in
+  sae -- cu -- lum sae -- cu --
+  li. Glo -- ri -- a Pa -- tri,
+  glo -- ri -- a Fi -- li -- o, %90
+  glo -- ri -- a et __ Spi --
+  ri -- tu -- i, Spi -- ri -- tu -- i
+  San -- cto.
+
+  Si -- cut %96
+  e -- rat in prin -- ci -- pi -- o et
+  nunc et sem -- per,
+  sem -- per
+
+  in sae -- cu -- la sae -- cu -- lo -- rum, %102
+  a -- men,
+
+  a -- men, a -- %107
+  men, a -- men,
+  a -- men, a -- men,
+  a -- men, %110
+
+  a -- men, a --
+  men, a -- men, a --
+  men, a -- men. %114 finis
+}
