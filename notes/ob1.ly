@@ -256,3 +256,106 @@ BeatusOboeI = {
     g4) r r\fermata \bar "|." %163 finis
   }
 }
+
+LaudatePueriOboe = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key b \major \time 2/4 \tempoLaudatePueri
+    \partial 8 r8
+    R2*3
+    r4 r8 \mvTr es'\fE-\tuttiE
+    c'16( a) f( es) \appoggiatura es d8 c16 b %5
+    es8. f16 g( es) g,( b)
+    a( c) b( f) es( es') d( f)
+    f( d) c8 r16 c( a) f-!
+    f'( d) c-! b-! \appoggiatura b a8 g16 f
+    b8. c16 d( f) b( d) %10
+    c( es,) d( f) es( c) f( a,)
+    b4 r8 b16-\solo d
+    f( d) c-! b-! \appoggiatura b a8 g16 f
+    \mvSr b8.\turn c16 d8 d
+    g16( es) d-! c-! \appoggiatura c h8 a16 g %15
+    \mvSr c8.\turn d16 es8 es16 c
+    c'( a) f-! es-! d( f) b-! d-!
+    c( a) f es d32 f g f b[ a g f]
+    d'[ c b a] b16 b, c4\trill
+    b r %20
+    R2*11 %31
+    f'32[-\soloE c' d c] \appoggiatura b a16 g32 f e[ g a g] \appoggiatura f e16 d32 c
+    f8 r r4
+    R2
+    r4 r8 f16(-\soloE a) %35
+    c( a) g f \appoggiatura f e8 d16 c
+    \mvSr f8.\turn g16 a8 a16( d,)
+    d'( b) a g \appoggiatura g fis8 e16 d
+    \mvSr g8.\turn a16 b8 b16 b
+    b( g) e b a( c) f a %40
+    b32[ a g f] e d c b a[ b c d] e f g a
+    d,[ e f g] a b c d g,4\trill
+    f r
+    R2*8 %51
+    r16 b-\soloE f d' c32[ b a b] c a f es
+    d8 r r4
+    R2*6 %59
+    r16 es-\soloE b'( g) es es es8\trill %60
+    r16 es c'( as) es es es8\trill
+    r16 es d32[ es d es] b'16 es, es8\trill
+    r16 b f'32[ d f d] b16 b b8\trill
+    R2*2 %65
+    r4 r8 es16(-\soloE g)
+    b( g) f es \appoggiatura es d8 c16 b
+    \mvSr es8.\turn f16 g8 g16( c,)
+    c'( as) g f \appoggiatura f e8 d16 c
+    \mvSr f8.\turn g16 as c32 h c[ as f as] %70
+    g[ es b' a] b g es g f4\trill
+    es r
+    R2*8 %80
+    r8. d16-\tutti \tuplet 3/2 8 { d[ fis a] c b a }
+    g d g d es c g' d
+    c' a, c' a fis c a' c,
+    d, c' b d g8 r
+    R2*6 %90
+    b,32[-\solo f' g f] es d c b a[ b c d] es f g a
+    b8[ c] d r
+    R2
+    r16 f,-!-\tuttiE b-! f-! g es b' f
+    es es, es' c a es' c' es, %95
+    f, es' d f b f d' f,
+    e32[ f g a] b c d c b[ a g f] e d c b
+    a[ f' e d] c b a g f8 r
+    R2*3 %101
+    r4 r8 es'-\tutti
+    c'16( a) f( es) \appoggiatura es d8 c16 b
+    es8. f16 g( es) g,( b)
+    a( c) b( f) es( es') d( f) %105
+    f( d) c8 r16 c( a) f
+    f'( d) c-! b-! \appoggiatura b a8 g16 f
+    b8. c16 d( f) b( d)
+    c( es,) d( f) f( c) es( a,)
+    b4 r8 b16-\solo d %110
+    f( d) c b \appoggiatura b a8 g16 f
+    \mvSr b8.\turn c16 d8 d16 g,
+    g'( es) d c \appoggiatura c h8 a16 g
+    \mvSr c8.\turn d16 es8 es16(-\tutti c)
+    c'( a) f( es) d( b) f'( d) %115
+    b'( g) es( d) c( a) es'( c)
+    a'( f) d( c) b( g) d'( b)
+    g'( es) c( b) a( f) c'( a)
+    b( f') b( f) f( c') es( c)
+    d( b) f( b) f( c') es( c) %120
+    d( b) g( es) d( b) f'( a,)
+    b4 r8 f'16(-\solo d')
+    c( a) f es d( f) b f
+    c'( a) f es d32 f es d es[ f g a]
+    b[ a g f] d' b c a b[ a g f] d' b c a %125
+    b[ a g f] es d c b c4\trill
+    b r8 \mvTr c'\pE-\tutti
+    d16( b) f( b) f( c') es( c)
+    d( b) b(\f d,) b'( es,) b'( f)
+    b( g) es( b) g'( es) c( a) %130
+    b'( f) b( d,) b'( es,) b'( f)
+    b( g) es( b) g'( es) \once \slurDashed c( a)
+    r f' f f r a a a
+    b8 r r4\fermata \bar "|." %134 finis
+  }
+}

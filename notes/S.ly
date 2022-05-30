@@ -668,3 +668,154 @@ BeatusSopranoLyrics = \lyricmode {
   men, a -- %160
   men. %161 finis
 }
+
+LaudatePueriSoprano = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 2/4 \autoBeamOff \tempoLaudatePueri
+    \partial 8 r8 R2*3
+    r4 r8 \mvTr es'\fE^\tuttiE
+    es4 d %5
+    es8. f16 g8 g,
+    a[([ b)] es([ d)]
+    d c r f,
+    f'16([ d)] c b \appoggiatura b a8 g16 f
+    b8. c16 d8 d %10
+    es d c8. c16
+    b4 r
+    R2*13 %25
+    r8 \mvTr f\pE^\solo a c
+    f4. f8
+    e c e g
+    \appoggiatura g16 b,4. b8
+    a4 r8 c %30
+    c4 c
+    c2~
+    c16[ d] e([ f)] \appoggiatura e d8 c16 b
+    a4( g)\trill
+    f r %35
+    R2*7 %42
+    r8 \mvTr f\fE^\tutti f f
+    f e16 e e8 b'
+    b a r4 %45
+    R2*7 %52
+    r8 \mvTr b\fE^\tuttiE b b
+    b a16 a a8 es'
+    es d r4 %55
+    R2*16 %71
+    r8 \mvTr es,\fE^\tuttiE es es
+    es d16 d d8 as'
+    as g r4
+    R2*7 %81
+    r8 \mvTr g\fE^\tuttiE g g
+    g fis16 fis fis8 c'
+    c b r4
+    R2*9 %93
+    r8 \mvTr b\fE^\tuttiE b b
+    b a16 a a8 es' %95
+    es d r4
+    e r
+    f r
+    R2*3 %101
+    r4 r8 \mvTr es16\fE^\tuttiE es
+    es8 f16([ es)] \appoggiatura es d8 c16([ b)]
+    es8. f16 g8 g,
+    a([ b)] es([ d)] %105
+    d c r f,16 f
+    f'([ d)] c b \appoggiatura b a8 g16([ f)]
+    b8.([ c16)] d8 d([
+    es)] d c4\trill
+    b r %110
+    R2*4
+    r8 f'([ d)] d %115
+    r es([ c)] c
+    r d([ b)] b
+    r c([ a)] a
+    r f([ f')] f
+    r f,([ f')] f %120
+    r16 d([ es c] b8[ a])
+    b4 r
+    R2*4 %126
+    r8 f([\p f')] f
+    r f,([ f')] f
+    r d([\f es f]
+    g) b, c4\trill %130
+    d8 d([ es f]
+    g) b, c4\trill
+    b8 r a4
+    b r\fermata \bar "|." %134 finis
+  }
+}
+
+LaudatePueriSopranoLyrics = \lyricmode {
+  Sit %4
+  no -- men %5
+  Do -- mi -- ni sit
+  be -- ne --
+  di -- ctum, ex
+  hoc nunc et us -- que in
+  sae -- cu -- lum, us -- %10
+  que in sae -- cu --
+  lum.
+
+  Ex -- cel -- sus %26
+  su -- per
+  o -- mnes gen -- tes
+  Do -- mi -- nus,
+  et %30
+  su -- per
+  coe --
+  los glo -- ri -- a
+  e --
+  ius. %35
+
+  Quis si -- cut %43
+  Do -- mi -- nus De -- us
+  no -- ster? %45
+
+  Quis si -- cut %53
+  Do -- mi -- nus De -- us
+  no -- ster? %55
+
+  Quis si -- cut %72
+  Do -- mi -- nus De -- us
+  no -- ster?
+
+  Quis si -- cut %82
+  Do -- mi -- nus De -- us
+  no -- ster?
+
+  Quis si -- cut %94
+  Do -- mi -- nus De -- us %95
+  no -- ster,
+  quis,
+  quis?
+
+  Si -- cut %102
+  e -- rat in prin --
+  ci -- pi -- o et
+  nunc et __ %105
+  sem -- per et in
+  sae -- cu -- la sae -- cu --
+  lo -- rum, a --
+  men, a --
+  men, %110
+
+  a -- men, %115
+  a -- men,
+  a -- men,
+  a -- men,
+  a -- men,
+  a -- men, %120
+  a --
+  men,
+
+  a -- men, %127
+  a -- men,
+  a --
+  men, a -- %130
+  men, a --
+  men, a --
+  men, a --
+  men. %134 finis
+}

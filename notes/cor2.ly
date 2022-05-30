@@ -347,3 +347,98 @@ BeatusCornoII = {
     c4 r r\fermata \bar "|." %163 finis
   }
 }
+
+LaudatePueriCornoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \tempoLaudatePueri
+    \partial 8 r8 R2*4
+    g'4\fE c, %5
+    c r
+    r8 c g' c
+    c g g r
+    c r g r
+    c, c r e %10
+    g c d d
+    e4 r
+    R2*4 %16
+    g,2~\p
+    g4 r
+    r r8 g
+    e r c\fz r %20
+    c r r4
+    r g'8\fzE r
+    g r r4
+    c,8\p r r4
+    R2 %25
+    r4 g'8\fz r
+    g r r4
+    r d'8\fzE r
+    d r r4
+    g,8\p r d' r %30
+    g, r d' r
+    g,4 d'
+    g,8 r r4
+    r d'\f
+    g,8 g g r %35
+    R2*4
+    d'2\p %40
+    d4 r
+    r r8 d
+    g,4 r
+    r d'8\f d
+    g,4 r %45
+    R2*3
+    g,2~\p
+    g~ %50
+    g
+    c8 r g' r
+    c,4 r
+    r g'8\f g
+    c,4 c8 c %55
+    c4 r
+    R2*8 %64
+    r4 r8 c'\f %65
+    c4 r
+    R2*6 %72
+    r4 c8\fE c16 c
+    c8 c r4
+    R2*8 %82
+    r4 e,8\fE e
+    e e16. e32 e8 r
+    R2*10 %94
+    r4 g8\fE g %95
+    c,4 c8 c
+    c4 r
+    g' r
+    R2*4 %102
+    g4\fE c,
+    c r
+    r8 c g' c %105
+    c g g r
+    c r g r
+    c, c r e
+    g c d d
+    e4 r %110
+    R2*4
+    g,4\fE c %115
+    R2*2
+    r4 g
+    c, g'
+    c g %120
+    c8 d c g
+    c, c c r
+    g'2~\p
+    g4 r
+    R2 %125
+    r4 r8 g
+    e c g' g
+    r c g g
+    r c,4\fE c8
+    c4 r8 g' %130
+    g c,4 c8
+    c4 r8 g'
+    e16 c' c c r g g g
+    c,8 r r4\fermata \bar "|." %134 finis
+  }
+}

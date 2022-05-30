@@ -25,11 +25,13 @@ crescin = #(make-music
   'span-text (markup (#:normal-text #:small "cresc. in")))
 
 dashedSpanner = \override DynamicTextSpanner.style = #'dashed-line
+mvSr = \once \override Script.X-offset = #3
 
 
 tempoDixit = \tempoMarkup "Allegro aperto"
 tempoConfitebor = \tempoMarkup "Allegro non troppo"
 tempoBeatus = \tempoMarkup "Allegro moderato"
+tempoLaudatePueri = \tempoMarkup "Andante"
 
 
 \include "notes/ob1.ly"

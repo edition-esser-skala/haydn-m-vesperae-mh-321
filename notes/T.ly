@@ -658,3 +658,176 @@ BeatusTenoreLyrics = \lyricmode {
   men, a -- %160
   men. %161 finis
 }
+
+LaudatePueriTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key b \major \time 2/4 \autoBeamOff \tempoLaudatePueri
+    \partial 8 \mvTr b16([\pE^\solo d16)] f([ d)] c b \appoggiatura b a8 g16([ f)]
+    b8. c16 d8 d
+    g16([ es)] d([ c)] \appoggiatura c h8 a16([ g)]
+    c8. d16 es8 \mvTr c\fE^\tutti
+    c4 b %5
+    b8. b16 b8 b
+    c([ b)] a([ b)]
+    b a r a
+    b d16 d es8 es16 c
+    b8. f16 f8 b %10
+    c b b a
+    b4 r
+    R2*30 %42
+    r8 \mvTr c\fE^\tuttiE d c
+    b b16 b b8 e
+    e f \mvTr a,\pE^\solo c %45
+    f4 f
+    f2~
+    f8 c16 a c8 a16([ f)]
+    es!8. es16 es4
+    a8. b16 c8 d %50
+    es8. es,16 es8 es
+    es d r4
+    r8 \mvTr f'\fE^\tutti g f
+    es es16 es c8 c
+    c b r4 %55
+    \mvTr b8.\pE^\solo c16 b8 es16([ g,)]
+    \appoggiatura g f8 f4 as16([ f)]
+    \appoggiatura es4 d4. as'8
+    as16([ g c)] b b8 r
+    es,4 des %60
+    c16([ es)] as c es8 d16 c
+    c8. b16 b4
+    b, as'
+    g16([ as)] b c b([ c)] d es
+    es,4( f8.)\trill es16 %65
+    es4 r
+    R2*5 %71
+    r8 \mvTr b'\fE^\tutti c b
+    as as16 as as8 d
+    d es r4
+    R2*7 %81
+    r8 \mvTr d\fE^\tuttiE es d
+    c c16 c a8 a
+    a g r4
+    R2*9 %93
+    r8 \mvTr f'\fE^\tuttiE g f
+    es es16 es c8 c %95
+    c b r4
+    b r
+    c r
+    \mvTr f16([\pE^\solo d)] c b \appoggiatura b a8 g16 f
+    b8. c16 d8 d( %100
+    g16[ es)] d([ c)] \appoggiatura c h8 a16 g
+    c8.([ d16)] es8 \mvTr c16\fE^\tutti c
+    c8 c b d
+    es16 b b8 r b
+    c([ b)] a([ b)] %105
+    b a r a16 a
+    b8 d16 d es8 es16([ c)]
+    b8.([ f16)] f8 b([
+    c)] b b([ a)]
+    b4 r %110
+    R2*4
+    r4 r8 f'([ %115
+    es)] es r es[(
+    d)] d r d([
+    c)] c r c([
+    b]) b r c(
+    d) d r c %120
+    b[ g16 es'] d8[ c]
+    b4 r
+    R2*4 %126
+    r4 r8 c(\p
+    d) d r c(
+    d) b b4~\f
+    b8 b b([ a)] %130
+    b4 b~
+    b8 b b([ a)]
+    b r c4
+    d r\fermata \bar "|." %134 finis
+  }
+}
+
+LaudatePueriTenoreLyrics = \lyricmode {
+  Lau --
+  da -- te pu -- e -- ri
+  Do -- mi -- num, lau --
+  da -- te no -- men
+  Do -- mi -- ni, sit
+  no -- men %5
+  Do -- mi -- ni sit
+  be -- ne --
+  di -- ctum, ex
+  hoc nunc et us -- que in
+  sae -- cu -- lum, us -- %10
+  que in sae -- cu --
+  lum.
+
+  Quis si -- cut %43
+  Do -- mi -- nus De -- us
+  no -- ster? Qui in %45
+  al -- tis
+  ha --
+  bi -- tat, et hu --
+  mi -- li -- a
+  re -- spi -- cit in %50
+  coe -- lo et in
+  ter -- ra?
+  Quis si -- cut
+  Do -- mi -- nus De -- us
+  no -- ster? %55
+  Su -- sci -- tans a __
+  ter -- ra, a __
+  ter -- ra
+  in -- o -- pem,
+  et de %60
+  ster -- co -- re e -- ri -- gens
+  pau -- pe -- rem,
+  et de
+  ster -- co -- re e -- ri -- gens
+  pau -- pe -- %65
+  rem.
+
+  Quis si -- cut %72
+  Do -- mi -- nus De -- us
+  no -- ster?
+
+  Quis si -- cut %82
+  Do -- mi -- nus De -- us
+  no -- ster?
+
+  Quis si -- cut %94
+  Do -- mi -- nus De -- us %95
+  no -- ster,
+  quis,
+  quis?
+  Glo -- ri -- a Pa -- tri et
+  Fi -- li -- o et __ %100
+  Spi -- ri -- tu -- i
+  San -- cto, si -- cut
+  e -- rat in prin --
+  ci -- pi -- o et
+  nunc et __ %105
+  sem -- per et in
+  sae -- cu -- la sae -- cu --
+  lo -- rum, a --
+  men, a --
+  men, %110
+
+  a -- %115
+  men, a --
+  men, a --
+  men, a --
+  men, a --
+  men, a -- %120
+  _ _
+  men,
+
+  a -- %127
+  men, a --
+  men, a --
+  men, a -- %130
+  men, a --
+  men, a --
+  men, a --
+  men. %134 finis
+}

@@ -465,3 +465,144 @@ BeatusViolinoI = {
     g4) r r\fermata \bar "|." %163 finis
   }
 }
+
+LaudatePueriViolinoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key b \major \time 2/4 \tempoLaudatePueri
+    \partial 8 f8\p f r f r
+    b-! d-! r g,
+    g r g r
+    c-! es-! r es\f
+    c'16( a) f( es) \appoggiatura es d8 c16 b %5
+    es8. f16 g( es) g,( b)
+    a( c) b( f) es( es') d( f)
+    f( d) c8 r16 c( a) f-!
+    f'( d) c-! b-! \appoggiatura b a8 g16 f
+    b8. c16 d( f) b( d) %10
+    c( es,) d( f) es( c) f( a,)
+    b( f') d( b') f( d) b(\p f)
+    d8 r f r
+    f f r g
+    g r g r %15
+    g g r es'
+    es4 d8 d
+    es4 d8 f
+    f d c c
+    b16 d,(\fz f b) d-! b( d f) %20
+    b-! d,(\p f b) d d8 d,16
+    c c'(\fz a f) es-! c( a f)
+    es-! c(\p a f') es es8 es16
+    d32 f g a b[ c d es] f[ es d es] f d b f
+    g[ f es f] g[ h c h] c d es f g[ es c b] %25
+    f16 f(\fz c f) a-! f( a c)
+    f-! a,(\p c f) a a8 f16
+    e c'(\fz b g) e-! c( b g)
+    e-! c(\p b g) b' b8 b16
+    a32[ c d c] \appoggiatura b a16 g32 f e[ g a g] \appoggiatura f e16 d32 c %30
+    a'8 r b r
+    c r e r
+    f16 f e32[ f a f] \appoggiatura e16 d8 c16 b
+    a f'8 a16 b b,8\f e,16
+    f a'( f c') a( f) c(\p f) %35
+    a,8 r b r
+    c a r a
+    b r c r
+    d b r d
+    g r f r %40
+    b,4 a8 c
+    d f f e
+    f16 c-!\f f-! c-! d b f' c
+    b' b, b' g e b g' b,
+    c, b' a f' f,8 r %45
+    r16 c'(\p a c) d( b) f'(\fz d)
+    c-!\p c( a c) d( b) f'(\fz d)
+    c8\p r c r
+    r16 es! es( c) c( a) a( es)
+    es8 a16. b32 c8 d %50
+    es32[ f g f] es d c b a[ b c b] a g f es
+    es8 d16. b'32 a8 es16. es'32
+    d16 f-!\f b-! f-! g es b' f
+    es es, es' c a es' c' es,
+    f, es' d b' f d, b'' d, %55
+    es\p b8 b' g es16~
+    es c8 as f as'16~
+    as f8 as f,8 as16~
+    as g( c b) b( g) as( f)
+    es g8 b g es'16~ %60
+    es c8 es as, c16~
+    c es8 es, g' b,16~
+    b as8 d, f' as,16
+    g as b c b c d es
+    g, g'8 es16 c as'8\f d,,16 %65
+    es g'( es b') g es(\p b es)
+    g,8 r as r
+    b g r g
+    as r b r
+    c as r f' %70
+    es es es d
+    es16 b-!\f es-! b-! c as es' b
+    as' f, as' f d as f' as,
+    b, as' g es' es,8 r
+    b'16\p b b b h h h h %75
+    c8 as g h
+    h16( d) c( h) c( g) g'( h,)
+    c16. d32 es16 c a!16. b32 c16 a
+    d( es) d( fis,) d'( es) d( g,)
+    d'( es) d( d,) r c' b( d) %80
+    d( b) a16. d,32\f \tuplet 3/2 8 { d16[ fis a] c b a }
+    g d'-! g-! d-! es c g' d
+    c' a, c' a fis c a' c,
+    d, c' b g' d fis, g\p b
+    g,8 b'8.( d16) c( es) %85
+    \appoggiatura b a8 c16( a) b( f) d'( b)
+    es( c) f,( g) f( es) c'( a)
+    b( f) f'( a,) b( f) es'( es,)
+    d32[ f g f] es d c b a[ b c d] es f g a
+    b8 r f r %90
+    f r c' r
+    f( es) d g16 b,
+    f d'8 d16 es a,8\fz a16
+    b f'-!\f b-! f-! g es b' f
+    es es, es' c a es' c' es, %95
+    f, es' d f b f d' f,
+    e32[ f g a] b c d c b[ a g f] e d c b
+    a[ f' e d] c b a g f8 r
+    f\p r f r
+    b-! d-! r g, %100
+    g r g r
+    c-! es-! r es\f
+    c'16( a) f( es) \appoggiatura es d8 c16 b
+    es8. f16 g( es) g,( b)
+    a( c) b( f) es( es') d( f) %105
+    f( d) c8 r16 c( a) f
+    f'( d) c-! b-! \appoggiatura b a8 g16 f
+    b8. c16 d( f) b( d)
+    c( es,) d( f) f( c) es( a,)
+    b( f') d( b') f( d) b(\p f) %110
+    d8 r f r
+    b d r g,
+    g r g r
+    c es r es16(\f c)
+    c'( a) f( es) d( b) f'( d) %115
+    b'( g) es( d) c( a) es'( c)
+    a'( f) d( c) b( g) d'( b)
+    g'( es) c( b) a( f) c'( a)
+    b( f') b( f) f( c') es( c)
+    d( b) f( b) f( c') es( c) %120
+    d( b) g( es) d( b) f'( a,)
+    b( f) d( f) d8 d'\p
+    es4 d8 d
+    es4 d8 c
+    b d16 c b8 d16 c %125
+    b8 d c c
+    d'16( b) f( b) f( c') es( c)
+    d( b) f( b) f( c') es( c)
+    d( b) b(\f d,) b'( es,) b'( f)
+    b( g) es( b) g'( es) c( a) %130
+    b'( f) b( d,) b'( es,) b'( f)
+    b( g) es( b) g'( es) \once \slurDashed c( a)
+    r f' f f r a a a
+    <b b, d,>8 r r4\fermata \bar "|." %134 finis
+  }
+}
