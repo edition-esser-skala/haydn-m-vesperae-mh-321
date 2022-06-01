@@ -247,20 +247,96 @@
   %     \midi { \tempo 4 = 90 }
   %   }
   % }
+  % \bookpart {
+  %   \section "4" "Laudate pueri"
+  %   \addTocEntry
+  %   \score {
+  %     <<
+  %       \new Staff {
+  %         \set Staff.instrumentName = \markup \center-column { "fl" "vel" "ob" }
+  %         \LaudatePueriOboe
+  %       }
+  %       \new StaffGroup <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "B" "flat" "basso" "1, 2" }
+  %           % \transpose c b,
+  %           \partCombine \LaudatePueriCornoI \LaudatePueriCornoII
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \LaudatePueriViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \LaudatePueriViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \LaudatePueriSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \LaudatePueriSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \LaudatePueriAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \LaudatePueriAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \LaudatePueriTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \LaudatePueriTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \LaudatePueriBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \LaudatePueriBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \LaudatePueriOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \LaudatePueriBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 65 }
+  %   }
+  % }
   \bookpart {
-    \section "4" "Laudate pueri"
+    \section "5" "Laudate Dominum"
     \addTocEntry
     \score {
       <<
-        \new Staff {
-          \set Staff.instrumentName = \markup \center-column { "fl" "vel" "ob" }
-          \LaudatePueriOboe
-        }
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "ob"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \LaudateDominumOboeI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \LaudateDominumOboeII
+            }
+          >>
+        >>
         \new StaffGroup <<
           \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "B" "flat" "basso" "1, 2" }
-            % \transpose c b,
-            \partCombine \LaudatePueriCornoI \LaudatePueriCornoII
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "F" "" "1, 2" }
+            % \transpose c f
+            \partCombine \LaudateDominumCornoI \LaudateDominumCornoII
           >>
         >>
         \new StaffGroup <<
@@ -268,50 +344,50 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \LaudatePueriViolinoI
+              \LaudateDominumViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \LaudatePueriViolinoII
+              \LaudateDominumViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \LaudatePueriSoprano }
+            \new Voice = "Soprano" { \dynamicUp \LaudateDominumSoprano }
           }
-          \new Lyrics \lyricsto Soprano \LaudatePueriSopranoLyrics
+          \new Lyrics \lyricsto Soprano \LaudateDominumSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \LaudatePueriAlto }
+            \new Voice = "Alto" { \dynamicUp \LaudateDominumAlto }
           }
-          \new Lyrics \lyricsto Alto \LaudatePueriAltoLyrics
+          \new Lyrics \lyricsto Alto \LaudateDominumAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \LaudatePueriTenore }
+            \new Voice = "Tenore" { \dynamicUp \LaudateDominumTenore }
           }
-          \new Lyrics \lyricsto Tenore \LaudatePueriTenoreLyrics
+          \new Lyrics \lyricsto Tenore \LaudateDominumTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \LaudatePueriBasso }
+            \new Voice = "Basso" { \dynamicUp \LaudateDominumBasso }
           }
-          \new Lyrics \lyricsto Basso \LaudatePueriBassoLyrics
+          \new Lyrics \lyricsto Basso \LaudateDominumBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \LaudatePueriOrgano
+            \LaudateDominumOrgano
           }
         >>
-        \new FiguredBass { \LaudatePueriBassFigures }
+        \new FiguredBass { \LaudateDominumBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 65 }
+      \midi { \tempo 4 = 110 }
     }
   }
 }

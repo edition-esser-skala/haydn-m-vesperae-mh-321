@@ -606,3 +606,66 @@ LaudatePueriViolinoII = {
     <b d, b>8 r r4\fermata \bar "|." %134 finis
   }
 }
+
+LaudateDominumViolinoII = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \tempoLaudateDominum
+    f16\fE a a a b g g g a f f f g e e e
+    f a c a f' c a' f b g g g b g g g
+    a c, c c f c a' f b g g g b g g g
+    a c c c e, g g g f a a a g, b b b
+    a f' f f g, e' e e c f f f c g g g %5
+    a f' f f g, e' e e f, e f c a' f c' a
+    f' a, a a b g g g a f f f g e e e
+    f a c a f' c a' f b g g g b g g g
+    a c, c c f c a' f b g g g b g g g
+    a c, c c f c a' f b g g g b g g g %10
+    f c c c c a a a a f f f a c c c
+    d f f f d f f f b, g' g g a, f' f f
+    a, f' f f g, e' e e f d d d f d d d
+    e g g g c e, e e f d d d f d d d
+    c e e e e c c c c g g g g e e e %15
+    e c c c c c c c c c' c c c c c c
+    d d, d d d d d d d d' d d d d d d
+    c c, c c c c c c c c' c c c c c c
+    c c, c c c c c c c c' c c d c h! c
+    c es es es h! d d d d h h h h g g g %20
+    g e! e e f d d d e c c c d h h h
+    g'' e e e f d d d e c c c d h h h
+    c g' g g g e e e d f f f f d d d
+    e c' c c e, c' c c d, c' c c d, h' h h
+    e, g g g h, d d d c e e e d, f f f %25
+    e c' c c d, h' h h c e e e d, f f f
+    e c' c c d, h' h h c c, h c e c g' e
+    c' e, e e f d d d e c c c d h h h
+    c e e e e g g g g c c c c e, e e
+    f a a a f b! b b b f' f f f b b b %30
+    g c, c c c g' g g g b, b b b g g g
+    g c, c c c a' a a a f e f a f c' a
+    f' a, a a b g g g a f f f g e e e
+    f a a a a c c c c f f f f a a a
+    f, d d d b es es es es b' b b b es es es %35
+    c f f f f c' c c c es, es es es c c c
+    c f, f f f d' d d d b' b b b b, b b
+    b d d d a c c c c a' a a a a, a a
+    a fis fis fis g d' d d g c, c c f? a, a a
+    a f f f c e e e g e e e e c c c %40
+    f c c c a' f f f c' a a a f' a, a a
+    b g' g g g g, g g g c, c c f c c c
+    f a a a c a c a g b b b b g b g
+    f a a a b g g g a f f f g e e e
+    f a c a f' c a' f b g g g b g g g %45
+    a c, c c f c a' f b g g g b g g g
+    a c, c c f c a' f b g g g b g g g
+    a f f f a f f f a, f' f f g, e' e e
+    a c c c e, g g g f a a a g, b b b
+    a f' f f g, e' e e a c c c e, g g g %50
+    f a a a b b, b b a f' f f g, e' e e
+    f, a\p a a a f f f f c c c c a' a a
+    b f f f f d d d c g' g g g b b b
+    a a'\f a a a c c c c g g g b e, e e
+    f a a a a c c c c g g g b e, e e %55
+    f4 <a c, f,> <f a, f> r\fermata \bar "|." %56 finis
+  }
+}

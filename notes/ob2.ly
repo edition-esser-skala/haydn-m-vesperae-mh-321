@@ -259,3 +259,66 @@ BeatusOboeII = {
     g4) r r\fermata \bar "|." %163 finis
   }
 }
+
+LaudateDominumOboeII = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \tempoLaudateDominum
+    a'4\fE b a g
+    f r8 a g4 g'
+    f8 c r a g4 g'
+    c,2 c4. g8
+    f4 e c'4. g8 %5
+    f4 e f8 f a c
+    f,1~
+    f4 a g4. g8
+    a4 r8 a g4 g'
+    f8 a r a, g4 g' %10
+    c,8 a r a a4 b8 c
+    b4. a8 g4 f
+    f e8 g d' d d d
+    c4 r8 g d' d d d
+    c4 r c r %15
+    e,2 e
+    f4 d'2 d4
+    c2 g
+    a4 c,2 d8 es
+    es4 d g8 f e d %20
+    c4 f' e d
+    c1~
+    c8 g' f e d2
+    c c4 h
+    c g2 f4 %25
+    e d g f
+    e d e8 e e e
+    e4 f e d
+    c e g e
+    f2 f4 f %30
+    g2 g4 g
+    g f r8 a a a
+    a4 b a g
+    a c8 b \appoggiatura b a4 g8 f
+    f4 es b' b %35
+    c2 c4 c
+    c b b r8 b
+    b4 a a4. a8
+    a4 g8 g g4 f
+    f e8 e e4 r8 e %40
+    f4 f8 f f4 f
+    g2. f4
+    f2 e
+    f4 b a g
+    f a g4. g8 %45
+    f4 r8 a g4 g'
+    f8 a r a, g4 g'
+    f8 a,4 b16 g f4 e
+    c'2 c4. g8
+    f4 e c'2 %50
+    c4. g8 f4 e
+    f f8\p a c2
+    b g
+    a4 r8 a\f b b b b
+    a4 r8 a b b b b %55
+    a4 c a r\fermata \bar "|." %56 finis
+  }
+}

@@ -819,3 +819,114 @@ LaudatePueriSopranoLyrics = \lyricmode {
   men, a --
   men. %134 finis
 }
+
+LaudateDominumSoprano = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \autoBeamOff \tempoLaudateDominum
+    R1*5 %5
+    r2 r8 \mvTr f([\fE^\tutti a c)]
+    f1~
+    f16[ e d c] f[ e] d([ c)] b8 a16 b c8 b
+    a4 c r r8 b
+    a4 c r r8 b %10
+    a4 f8 c' f4. es8
+    d4. c8 b4 a
+    a8. g16 g4 r r8 f'
+    e4 c r r8 f
+    e4 c r2 %15
+    g4 g8 g g4 g
+    g8. f'16 f4 f4. f8
+    e4 r8 e4 e e8
+    es2. d8 c
+    c4 h! r g %20
+    c c8 c c4 c8 c
+    c1~
+    c2 f
+    e4 e d2
+    c4 r r2 %25
+    R1*2
+    c1~
+    c8[ g'] g f \appoggiatura f e4 d8 c
+    c8. b!16 b4 b b %30
+    b2~ b8[ c16 d] c8 b
+    b4 a r8 f[ a c]
+    f1~
+    f8[ c] c b \appoggiatura b a4 g8 f
+    f8. es16 es4 es' es %35
+    es2~ es8[ f16 g] f8 es
+    es4 d r8 d4 d8
+    d4 c c4. c8
+    c8. b16 b8 b b4 a
+    a g r8 g4 g8 %40
+    a4 a8 a a4 a
+    b2. a4
+    a2( g)
+    f4 f'2 f4
+    f16[ e d c] f[ e d c] b8[ a16 b] c8[ b] %45
+    a4 c r r8 b(
+    a4) c r r8 b(
+    a4.) b8 a4( g)
+    f r r b(
+    a8) a g4 a r %50
+    r b( a8) a g4
+    f r es'2\p
+    d e
+    f4 r e2\f
+    f4 r e2 %55
+    f4 r r2\fermata \bar "|." %56 finis
+  }
+}
+
+LaudateDominumSopranoLyrics = \lyricmode {
+  Lau -- %6
+  da --
+  _ te Do -- mi -- num, o -- mnes
+  gen -- tes, lau --
+  da -- te, lau -- %10
+  da -- te, lau -- da -- te
+  e -- um, o -- mnes
+  po -- pu -- li, lau --
+  da -- te, lau --
+  da -- te. %15
+  Quo -- ni -- am con -- fir --
+  ma -- ta est su -- per
+  nos mi -- se -- ri --
+  cor -- di -- a
+  e -- ius, et %20
+  ve -- ri -- tas Do -- mi -- ni
+  ma --
+  net
+  in ae -- ter --
+  num. %25
+
+  Glo -- %28
+  ri -- a Pa -- tri et
+  Fi -- li -- o et Spi -- %30
+  ri -- tu -- i
+  San -- cto, glo --
+  _
+  ri -- a Pa -- tri et
+  Fi -- li -- o et Spi -- %35
+  ri -- tu -- i
+  San -- cto, si -- cut
+  e -- rat in prin --
+  ci -- pi -- o et nunc et
+  sem -- per et in %40
+  sae -- cu -- la sae -- cu --
+  lo -- rum,
+  a --
+  men, a -- men,
+  a -- _ _ _ %45
+  _ men, a --
+  men, a --
+  men, a --
+  men, a --
+  men, a -- men, %50
+  a -- men, a --
+  men, a --
+  men, a --
+  men, a --
+  men, a -- %55
+  men. %56 finis
+}

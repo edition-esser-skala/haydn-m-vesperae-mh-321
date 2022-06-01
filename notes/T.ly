@@ -831,3 +831,108 @@ LaudatePueriTenoreLyrics = \lyricmode {
   men, a --
   men. %134 finis
 }
+
+LaudateDominumTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key f \major \time 4/4 \autoBeamOff \tempoLaudateDominum
+    R1*7 %7
+    r8 \mvTr f\fE^\tutti f f d d16 d c8 c
+    c4 c r r8 c
+    c4 c r r8 c %10
+    c4 a r8 c c f,
+    f'4. f8 d4 d
+    c8. c16 c4 r r8 d
+    c4 e r r8 d
+    c4 e r2 %15
+    c4 c8 c c4 c
+    d8. d16 d4 d4. d8
+    c4 r8 c4 c c8
+    c2. d8 es
+    es4 d r r8 d %20
+    e4 f8 f e4 d8 d
+    c4 f e d
+    e2 d
+    c4 c c( h)
+    c r r2 %25
+    R1*3
+    e4 e8 e c4 e8 e
+    d8. d16 d4 d d %30
+    c2. c8 c
+    c4 c r2
+    R1
+    a4 a8 a c4 a8 a
+    b8. b16 b4 b b %35
+    c2. c8 c
+    c4 b r8 b4 b8
+    b4 a d4. d8
+    d8. d16 d8 d c4 c
+    c c r8 c4 c8 %40
+    c4 c8 c c4 f
+    e( d c) c
+    c1
+    a4 r r2
+    r8 f'4 f8 d4 c %45
+    c c r r8 e(
+    f[ c)] c4 r r8 e(
+    f[ c)] d4 c2
+    c4 r r c~
+    c8 c c4 c r %50
+    r c4. c8 c4
+    a r c4.(\p f8)
+    f2 g4.( c,8)
+    c4 r c2\f
+    c4 r c2 %55
+    c4 r r2\fermata \bar "|." %56 finis
+  }
+}
+
+LaudateDominumTenoreLyrics = \lyricmode {
+  Lau -- da -- te Do -- mi -- num, o -- mnes %8
+  gen -- tes, lau --
+  da -- te, lau -- %10
+  da -- te, lau -- da -- te
+  e -- um, o -- mnes
+  po -- pu -- li, lau --
+  da -- te, lau --
+  da -- te. %15
+  Quo -- ni -- am con -- fir --
+  ma -- ta est su -- per
+  nos mi -- se -- ri --
+  cor -- di -- a
+  e -- ius, et %20
+  ve -- ri -- tas Do -- mi -- ni
+  ma -- _ _ _
+  _ net
+  in ae -- ter --
+  num. %25
+
+  Glo -- ri -- a Pa -- tri et %29
+  Fi -- li -- o et Spi -- %30
+  ri -- tu -- i
+  San -- cto,
+
+  glo -- ri -- a Pa -- tri et %34
+  Fi -- li -- o et Spi -- %35
+  ri -- tu -- i
+  San -- cto, si -- cut
+  e -- rat in prin --
+  ci -- pi -- o et nunc et
+  sem -- per et in %40
+  sae -- cu -- la sae -- cu --
+  lo -- rum,
+  a --
+  men,
+  a -- men, a -- men, %45
+  a -- men, a --
+  men, a --
+  men, a --
+  men, a --
+  men, a -- men, %50
+  a -- men, a --
+  men, a --
+  men, a --
+  men, a --
+  men, a -- %55
+  men. %56 finis
+}

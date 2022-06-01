@@ -1197,3 +1197,125 @@ LaudatePueriBassFigures = \figuremode {
   r2
   r %134 finis
 }
+
+LaudateDominumOrgano = {
+  \relative c {
+    \clef bass
+    \key f \major \time 4/4 \tempoLaudateDominum
+    \mvTr f8\fE-\solo r f r f r f r
+    f4 r8 f e c' e, c'
+    f, a r f e c' e, c'
+    f, a g b a f e c
+    f a c b a f e c %5
+    f a c c, f4 r
+    f8-\tutti r f r f r f r
+    f f f f f f e e
+    f4 r8 f e c' e, c'
+    f,4 r8 f e c' e, c' %10
+    f, f f,4 r8 f' g a
+    b b b b b b h h
+    c c, r c h g' h, g'
+    c,4 r8 c h g' h, g'
+    c,4 r c r %15
+    c8 c' c c c c, c c
+    h h' h h h h, h h
+    c c' c c c c, c c
+    fis, fis' fis fis fis fis, fis fis
+    g g' g g g f e! d %20
+    c4 r r2
+    c4 r r2
+    c'8 c c c h h h h
+    c c, a' g f d g g,
+    c e-\solo d f e c h g %25
+    c e g f e c h g
+    c e g g, c4 r
+    c8-\tutti r c r c r c r
+    c c c c c c c c
+    d d d d d d d d %30
+    e e e e e e e e
+    f f f, f' f,4 r
+    f'8 r f r f r f r
+    f f f f f f f f
+    g g g g g g g g %35
+    a a a a a a a a
+    b b b b b, b b b
+    f' f f f fis fis fis fis
+    g g g f e e f f
+    c c c c' c, c' c, c' %40
+    c, c c c' c, c' c, c'
+    c, c d d e e f f
+    c' c c c c, c c c
+    f4 r r2
+    f8 f f f f f e e %45
+    f4 r8 f e c' e, c'
+    f,4 r8 f e c' e, c'
+    f, f d b c b c c
+    f a g b a f e c
+    f a c c, f a g b %50
+    a f e c f a c c,
+    f4 r f\p r
+    f r f r
+    f r8 f\f c c c c
+    f4 r8 f c c c c %55
+    f4 f, f r\fermata \bar "|." %56 finis
+  }
+}
+
+LaudateDominumBassFigures = \figuremode {
+  r4 <6 4> <[5] 3> <7 2>
+  <[8] 3>2 <6 [5]>
+  r <[6 5]>
+  r4 <6> q \bo <[6]>
+  r2 <6>4 \bc <[6]> %5
+  r1
+  r4 <6 4> <[5] 3> <7 2>
+  <[8] 3>2 <2>4 <6>8 <5>
+  r2 <6 5>
+  r q %10
+  r2. <7>8 <5->
+  r4. <9 7>8 <8 6>4 <7>
+  <6 4> <[5] 3> <6 5>2
+  r <[6 5]>
+  r1 %15
+  r
+  <6 5>
+  r
+  <7->2. <6>8 <7->
+  <6- 4>4 <[5] 3> \bo <\l 3>4. \bc q8 %20
+  <[_!]>1
+  r
+  r2 <6 5>
+  r4. <\t>8 <6 5>4 <_!>
+  r <6!> <6> <[5]> %25
+  r <_!> \bo <[6]> \bc <[5]>
+  r <_!>2.
+  r4 <6 4> <[5] 3> <7! 2>
+  <[8] 3>1
+  <7>4 <6->2. %30
+  <6 5>1
+  <9 4>4 <[8] 3>2.
+  r4 <6 4> <[5] 3> <7 2>
+  <[8] 3>1
+  <7>4 <6->2. %35
+  <6 5->1
+  <9 4->4 <[8] 3>2.
+  <6 4>4 <[5] 3> <6 5>2
+  <9 4>4 <[8] 3> <6 5>2
+  <6 4>4 <[5] 3>2. %40
+  <6 4>1
+  <7>4 <6 4> <6 5>2
+  <6 4>2 <[5] 3>
+  r1
+  r2 <2>4 <6>8 <5> %45
+  r2 <6 5>
+  r <[6 5]>
+  r4. <5>8 <6 4>4 <[5] 3>
+  r <6> <[6]> <5>
+  r2. <6>4 %50
+  <[6]> <5>2.
+  r2 <7->
+  <6 4> <7! \t>
+  <8 [3]>1
+  r %55
+  r %56 finis
+}

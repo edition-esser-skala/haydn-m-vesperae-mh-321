@@ -32,6 +32,7 @@ tempoDixit = \tempoMarkup "Allegro aperto"
 tempoConfitebor = \tempoMarkup "Allegro non troppo"
 tempoBeatus = \tempoMarkup "Allegro moderato"
 tempoLaudatePueri = \tempoMarkup "Andante"
+tempoLaudateDominum = \tempoMarkup "Allegro molto"
 
 
 \include "notes/ob1.ly"

@@ -359,3 +359,66 @@ LaudatePueriOboe = {
     b8 r r4\fermata \bar "|." %134 finis
   }
 }
+
+LaudateDominumOboeI = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \tempoLaudateDominum
+    f'4\fE d c b
+    a r8 c c4 b'
+    a8 f r c c4 b'
+    a8 f b e, f a g b,
+    a4 g f'8 a g b, %5
+    a4 g f8 f a c
+    f1~
+    f16 e d c f e d c b8 a16 b c8 b
+    a4 r8 c c4 b'
+    a8 c r c, c4 b' %10
+    a8 f r c f4. es8
+    d4. c8 b4 a
+    a g8 e' f f f f
+    e4 r8 e f f f f
+    e4 r e r %15
+    g,2 g
+    g4 f'2 f4
+    e2 e
+    es4 es2 d8 c
+    c4 h g8 f e! d %20
+    c4 a'' g f
+    c'1~
+    c8 h a g g4( f)
+    e2 d
+    c4 h c d %25
+    c h c d
+    c h c8 c c c
+    c4 a g f
+    e g'8 f \appoggiatura f e4 d8 c
+    c4 b! b b %30
+    b2~ b8 c16 d c8 b
+    b4 a r8 f' f f
+    f4 d c b
+    f' c8 b \appoggiatura b a4 g8 f
+    f4 es es' es %35
+    es2~ es8 f16 g f8 es
+    es4 d d r8 d
+    d4 c c4. c8
+    c4 b8 b b4 a
+    a g8 g g4 r8 g %40
+    a4 a8 a a4 a
+    b2. a4
+    a2 g
+    f4 d' c b
+    a16 c d c f e d c b8 a16 b c8 b %45
+    a4 r8 c c4 b'
+    a8 c r c, c4 b'
+    a8 f4 d16 b a4 g
+    a'8 f b e, f a g b,
+    a4 g a'8 f b e, %50
+    f a g b, a4 g
+    f a8\p c es2
+    d e
+    f4 r8 c\f e e e e
+    f4 r8 c e e e e %55
+    f4 a f r\fermata \bar "|." %56 finis
+  }
+}

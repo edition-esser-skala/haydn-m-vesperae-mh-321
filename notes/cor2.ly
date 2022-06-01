@@ -442,3 +442,66 @@ LaudatePueriCornoII = {
     c,8 r r4\fermata \bar "|." %134 finis
   }
 }
+
+LaudateDominumCornoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoLaudateDominum
+    c2\fE c
+    c4 r g'2
+    c,4 r g'2
+    c,8 r g' r g4 r8 d'
+    c c g g g4 r8 d' %5
+    c c g g e4 r
+    c8 c r c r c r c
+    c4 r r g'
+    g r g2
+    c,4 r g'2 %10
+    c,4 c8 c c4 r
+    c r r c'
+    c g8 g d' d d d
+    g,4 r8 g d' d d d
+    g,4 r g r %15
+    g r r g
+    d' r r d
+    g, r r2
+    g g
+    d'4 d8 d d4 r %20
+    g, r g r
+    g r g r
+    g2 d'
+    g,4 r8 g c4 d
+    g, r r2 %25
+    r4 d' d r
+    r d g,8 g g g
+    g g r g r g r g
+    g4 r r2
+    c,4 r r2 %30
+    g'4 r g g
+    g g r8 c, c c
+    c c r c r c r c
+    c4 r r2
+    R1 %35
+    r4 c c8 c c c
+    c4 r c r
+    c r r2
+    r g'4 c,8 c'
+    c4 g8 g g4 r %40
+    g r g r
+    g r r c,
+    g'8 c c c g g g g
+    e4 c c c
+    c r r g' %45
+    g r g2
+    c,4 r g'2
+    c,4 r c' g8 g
+    c, r g' r g4 r8 d'
+    c c g g c, r g' r %50
+    g4 r8 d' c c g g
+    e4 c8\p c c2~
+    c1
+    c4 r8 c\f g' g g g
+    c,4 r8 c g' g g g %55
+    c,4 c8 c16 c c4 r\fermata \bar "|." %56 finis
+  }
+}
