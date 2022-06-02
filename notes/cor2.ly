@@ -505,3 +505,11 @@ LaudateDominumCornoII = {
     c,4 c8 c16 c c4 r\fermata \bar "|." %56 finis
   }
 }
+
+MagnificatCornoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoMagnificat
+    
+  }
+}

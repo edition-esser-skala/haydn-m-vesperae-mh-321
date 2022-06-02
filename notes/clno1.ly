@@ -104,3 +104,11 @@ DixitClarinoI = {
     c r r\fermata \bar "|." %168 finis
   }
 }
+
+MagnificatClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoMagnificat
+    
+  }
+}

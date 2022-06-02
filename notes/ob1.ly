@@ -422,3 +422,11 @@ LaudateDominumOboeI = {
     f4 a f r\fermata \bar "|." %56 finis
   }
 }
+
+MagnificatOboeI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoMagnificat
+    
+  }
+}

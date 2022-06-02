@@ -669,3 +669,11 @@ LaudateDominumViolinoI = {
     f4 <a c, f,> <f a, f> r\fermata \bar "|." %56 finis
   }
 }
+
+MagnificatViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoMagnificat
+    
+  }
+}

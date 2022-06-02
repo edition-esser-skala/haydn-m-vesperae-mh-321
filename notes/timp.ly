@@ -94,3 +94,11 @@ DixitTimpani = {
     c r r\fermata \bar "|." %168 finis
   }
 }
+
+MagnificatTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoMagnificat
+    
+  }
+}

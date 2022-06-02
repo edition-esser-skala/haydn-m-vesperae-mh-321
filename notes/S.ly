@@ -930,3 +930,347 @@ LaudateDominumSopranoLyrics = \lyricmode {
   men, a -- %55
   men. %56 finis
 }
+
+MagnificatSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoMagnificat
+    \mvTr g'2(\fE^\tutti a4 g)
+    c2( d4..) c16
+    c4 r c c8 c
+    h4 c a4. a8 \noBreak
+    g1\fermata \bar "||" %5
+    \time 3/4 \tempoMagnificatB R2.*15 %20
+    r8 e' e e g4
+    c, c8 c16 c e4
+    a, r c
+    h f' e
+    e d r %25
+    d8 d4 d8 g f
+    f([ e)] e4 r
+    e8 e4 e8 e e
+    e([ f)] f4 f8 f
+    f e e4( d) %30
+    c r r
+    R2.*5 %36
+    \mvTr c4\pE^\solo g g
+    g4.( a8) g4
+    c g g
+    g4.( a8) g4 %40
+    e' f8([ d)] h([ d)]
+    \appoggiatura d c4 c r
+    e2 a,4
+    gis8([ h)] a([ h)] c([ cis)]
+    d2 g,4 %45
+    fis8([ a)] g4 r8 h
+    h([ a)] c4. c8
+    c([ h)] d2
+    d8([ c)] e4 r
+    e4.( c8) e([ c)] %50
+    h([ e d g)] fis([ e)]
+    \appoggiatura e16 d8 e16([ c)] h4( a)\trill
+    g \mvTr d'\fE^\tutti d
+    r8 h g'4 fis
+    r e d %55
+    c4. c8 d c
+    h c h4( a)
+    g r r
+    R2.*10 %68
+    r4 r \mvTr h\p^\tuttiE
+    c( e,) fis %70
+    g( a) h
+    a2( c4)
+    h r r
+    R2.*6 %79
+    r4 r r8 \mvTr e,\p^\tuttiE %80
+    dis4. dis8 dis4
+    e e r8 gis
+    a4. a8 a4
+    a gis r
+    R2.*3 %87
+    r4 d'\f g,8 g
+    e'8. d16 c4 g
+    g8. f'16 f8 f f f16 f %90
+    e8.([ d16)] c4 e
+    g8([ b,)] b4 b
+    b a c
+    f2.
+    f %95
+    f2 f4
+    d8 b a4( g)
+    f r r
+    R2.*18 %116
+    \appoggiatura c'8 \mvTr b2~\p^\tuttiE b8 b
+    a4 r r
+    R2.*6 %124
+    r4 r \mvTr cis,\p^\tuttiE %125
+    d b' a
+    gis a r
+    R2.*2
+    r4 r \mvTr h!\pE^\tuttiE %130
+    c a f
+    dis e r
+    R2.*14 %146
+    r4 \mvTrr e\pp^\tutti f8 f
+    g4( a) b8 b
+    b4 a r
+    r fis g8 g %150
+    a4( h!) c8 c
+    c4 h r
+    R2.*10 %162
+    \mvTr h4\pE^\solo h e
+    e4. dis8 dis4
+    fis a, a %165
+    a g r
+    R2.*3
+    d'!2. %170
+    g8 e c4. h8
+    e([ c a c)] a g
+    fis([ e')] d2
+    c4 h( a8.)\trill g16
+    g4 r r %175
+    R2.*13 %188
+    \mvTr g2\fE^\tutti a4
+    g2( c4) %190
+    c2.
+    h
+    c4( d) d
+    c2.
+    d2~ d8. c16 %195
+    c4 r r
+    R2.
+    r4 c c
+    h4. h8 c4
+    a2. %200
+    g4 r r
+    R2.*3
+    r8 e'4 e8 g4 %205
+    c, c8 c e8.e16
+    a,4 r c
+    h( f') e
+    e d r
+    d8 d d g16 fis e8 d %210
+    d([ c)] c4 r
+    c8 c c d16 e d8 c
+    c([ h)] h4 g'8([ d)]
+    e([ c)] h4( a)
+    g r r %215
+    R2.*5 %220
+    r8 h4 h8 d4
+    g, g8 g h8. h16
+    e,4 r g
+    fis( c') c
+    c h r %225
+    r8 e4 e8 g4
+    c, c8 c e8. e16
+    a,4 r c
+    h( f') e
+    e d r %230
+    d8 d d d16 d g8 f
+    f([ e)] e4 r
+    e8 e e e16 e e8 e
+    e([ f)] f4 f8 f
+    f e e4( d) %235
+    c r r
+    R2.
+    \mvTr e,2(\pE^\solo d4)
+    c r r
+    r r f' %240
+    e d2\trill
+    c4 r r
+    \mvTr g2.\p^\tutti
+    g4 r r
+    g2. %245
+    g4 r e'4\f
+    d r d
+    c r f~
+    f e e~
+    e d d~ %250
+    d c c~
+    c8 d c4( h)
+    c r r
+    R2.
+    r4 r g' %255
+    f e( d)
+    e r r
+    R2.
+    r4 r g
+    f e( d) %260
+    c r \mvTr g\pE^\solo
+    c e g
+    e r \mvTr g,\fE^\tutti
+    c e g
+    c, r d %265
+    e r r\fermata \bar "|." %266 finis
+  }
+}
+
+MagnificatSopranoLyrics = \lyricmode {
+  Ma --
+  gni -- fi --
+  cat a -- ni -- ma
+  me -- a Do -- mi --
+  num. %5
+
+  Et ex -- sul -- ta -- %21
+  vit spi -- ri -- tus me --
+  us in
+  De -- o, in
+  De -- o, %25
+  in De -- o sa -- lu --
+  ta -- ri,
+  in De -- o sa -- lu --
+  ta -- ri, sa -- lu --
+  ta -- ri me -- %30
+  o.
+
+  Qui -- a re -- %37
+  spe -- xit
+  hu -- mi -- li --
+  ta -- tem %40
+  an -- cil -- lae
+  su -- ae.
+  Ec -- ce
+  e -- nim ex __
+  hoc be -- %45
+  a -- tam, be --
+  a -- tam me
+  di -- cent
+  o -- mnes,
+  o -- mnes %50
+  ge -- ne --
+  ra -- ti -- o --
+  nes, ec -- ce
+  be -- a -- tam
+  di -- cent %55
+  o -- mnes ge -- ne --
+  ra -- ti -- o --
+  nes.
+
+  Et %69
+  san -- ctum %70
+  no -- men
+  e --
+  ius,
+
+  ti -- %80
+  men -- ti -- bus
+  e -- um, ti --
+  men -- ti -- bus
+  e -- um.
+
+  Fe -- cit po -- %88
+  ten -- ti -- am, po --
+  ten -- ti -- am in bra -- chi -- o %90
+  su -- o, dis --
+  per -- sit su --
+  per -- bos, su --
+  per --
+  bos %95
+  men -- te
+  cor -- dis su --
+  i.
+
+  Hu -- mi -- %117
+  les.
+
+  Di -- %125
+  mi -- sit in --
+  a -- nes,
+
+  di -- %130
+  mi -- sit in --
+  a -- nes.
+
+  Mi -- se -- ri -- %147
+  cor -- di -- ae
+  su -- ae,
+  mi -- se -- ri -- %150
+  cor -- di -- ae
+  su -- ae.
+
+  Si -- cut lo -- %163
+  cu -- tus est
+  ad pa -- tres %165
+  no -- stros,
+
+  A -- %170
+  _ bra -- ham et
+  se -- mi -- ni
+  e -- ius
+  in sae -- cu --
+  la. %175
+
+  Glo -- ri -- %189
+  a __ %190
+  Pa --
+  _
+  tri __ et
+  Fi --
+  _ li -- %195
+  o
+
+  et Spi -- %198
+  ri -- tu -- i
+  San -- %200
+  cto,
+
+  si -- cut e -- %205
+  rat in prin -- ci -- pi --
+  o et
+  nunc __ et
+  sem -- per
+  et in sae -- cu -- la sae -- cu -- %210
+  lo -- rum,
+  et in sae -- cu -- la sae -- cu --
+  lo -- rum, a --
+  men, a --
+  men, %215
+
+  si -- cut e -- %221
+  rat in prin -- ci -- pi --
+  o et
+  nunc __ et
+  sem -- per, %225
+  si -- cut e --
+  rat in prin -- ci -- pi --
+  o et
+  nunc __ et
+  sem -- per %230
+  et in sae -- cu -- la sae -- cu --
+  lo -- rum,
+  et in sae -- cu -- la sae -- cu --
+  lo -- rum, a -- men,
+  a -- men, a -- %235
+  men,
+
+  a --
+  men,
+  a -- %240
+  men, a --
+  men,
+  a --
+  men,
+  a -- %245
+  men, a --
+  men, a --
+  men, a --
+  men, a --
+  men, a -- %250
+  men, a --
+  men, a --
+  men,
+
+  a -- %255
+  men, a --
+  men,
+
+  a --
+  men, a -- %260
+  men, a --
+  _ _ _
+  men, a --
+  _ _ _
+  men, a -- %265
+  men. %266 finis
+}

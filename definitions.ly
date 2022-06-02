@@ -33,6 +33,8 @@ tempoConfitebor = \tempoMarkup "Allegro non troppo"
 tempoBeatus = \tempoMarkup "Allegro moderato"
 tempoLaudatePueri = \tempoMarkup "Andante"
 tempoLaudateDominum = \tempoMarkup "Allegro molto"
+tempoMagnificat = \tempoMarkup "Adagio"
+  tempoMagnificatB = \tempoMarkup "Allegro con spirito"
 
 
 \include "notes/ob1.ly"
