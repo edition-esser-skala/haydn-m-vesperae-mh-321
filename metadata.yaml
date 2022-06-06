@@ -1,11 +1,11 @@
 composer:
   last: Haydn
   first: Johann Michael
-title: Vesperæ de Dominca
+title: Vesperæ de Dominica
 id: MH 321
 genre: vesper
-scoring: S, A, T, B (solo), S, A, T, B (coro), [fl], 2 ob, fag, 2 cor (\flat B basso/C basso/\flat E/F/G), 2 clno (C), 3 trb, timp (C–G), 2 vl, b, org
-license: cc-by-sa-4.0
+scoring: S, A, T, B (solo), S, A, T, B (coro), [fl], 2 ob, fag,\\2 cor (\flat B\ basso/C basso/\flat E/F/G), 2 clno (C), 3 trb, timp (C–G), 2 vl, b, org
+license: cc-by-nc-sa-4.0
 sources:
   A1:
     siglum: D-Mbs
