@@ -427,6 +427,216 @@ MagnificatOboeI = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \tempoMagnificat
-    
+    g'2\fE a4 g
+    c2 d
+    c4 r c c8 c
+    h4 c a2 \noBreak
+    g1\fermata \bar "||" %5
+    \time 3/4 \tempoMagnificatB g'2. \noBreak
+    e
+    c
+    r8 h[ d f] \appoggiatura f16 e8 g16 e
+    e4\trill d r %10
+    d d4. f8
+    f4( e) r
+    e c'4. a16 g
+    g4( f) f
+    e r r %15
+    r r8 a,\p d f
+    e2( d4)
+    g\f r r
+    g2 f4
+    e d2\trill %20
+    c4 g' g
+    e2 e4
+    c2 c4
+    f f e
+    e d r %25
+    d d4. f8
+    f( e) e4 r
+    e e4. e8
+    e( f) f4 f
+    f8 e e4 d %30
+    c r r
+    r r8 a\p d f
+    e2( d4)
+    g\f r r
+    g2 f4 %35
+    e d2\trill
+    c4 r r
+    R2.*4 %41
+    r8 c\fE c c e16 d c h
+    a4 r r
+    R2.*9 %52
+    r4 g'\fE a
+    h2.
+    g %55
+    e4 c d8 c
+    h c h4 a
+    g r r
+    r r8 e\p a c
+    h2( a4) %60
+    d\f r g
+    e8 c h4 a
+    g r r
+    R2.*5 %68
+    r4 r h\p
+    c2 a4 %70
+    d2.~
+    d2 c4
+    h h'\f d,
+    c r r
+    R2.*7 %81
+    r4 r gis\p
+    a2 c4
+    c h h\f
+    h r h %85
+    a r a
+    a r a
+    h r d
+    e c g
+    g f'2 %90
+    e8. d16 c4 e
+    g8 b, b4 b
+    b a c
+    c f f
+    f2. %95
+    f2 f4
+    d8 b a4 g
+    f r f'
+    d2.~
+    d4 b'2 %100
+    c,4 c2~
+    c4 a'2
+    b,4 b2~
+    b4 e2
+    f4. a8 b g %105
+    f4 r r
+    R2.*5 %111
+    r4 g,\fE g
+    a r r
+    R2.*2 %115
+    r4 a\p a
+    b2.
+    a4 c4.(\f cis8)
+    d4 r r
+    a'2.\p %120
+    R
+    a
+    R2.*2
+    r4 r a, %125
+    d, b' a
+    gis a r
+    R2.*2
+    r4 r h! %130
+    c a f
+    dis e r
+    R2.*2
+    c'2 d8. h16 %135
+    a4 r a\f
+    a f'2~
+    f4 e d
+    c8 h a8. g!16 f8. e16
+    d4 d'2~ %140
+    d8 h c4 h
+    a r r
+    R2.*5 %147
+    r4 r b\p
+    b a r
+    R2. %150
+    r4 r c
+    c h! r
+    R2.*6 %158
+    r4 r e\f
+    c2. %160
+    h
+    h4 r8 e4 dis8
+    e4 r r
+    R2.*16 %179
+    r4 r g\fE %180
+    e2.~
+    e4 c'2
+    d,4 d2~
+    d4 h'2
+    c,4 c2~ %185
+    c4 a'2
+    g4. h8 c a
+    g4 g,8 f! e d
+    g2 a4
+    g2 c4 %190
+    c2.
+    h
+    c4 d d
+    c2.
+    d %195
+    c4 r r
+    r c c
+    c2 c4
+    h2 c4
+    a2. %200
+    g4 e' g
+    e2.
+    c
+    r8 f e4 d
+    c g' g %205
+    e2 e4
+    c2 c4
+    h f' e
+    e d r
+    d d8 g16 fis e8 d %210
+    d c c4 r
+    c c8 d16 e d8 c
+    c h h4 g'8 d
+    e c h4 a
+    g r r %215
+    r r8 e\p a c
+    h2( a4)
+    d\f r g16 fis e dis
+    e4 e2~
+    e8 a g d c a %220
+    g4 d'2
+    h4 h2
+    g4 e' d
+    c c2
+    c4 h f'! %225
+    e g g
+    e e2
+    c4 c2
+    h4 f' e
+    e d r %230
+    d d4. f8
+    f( e) e4 r
+    e e4. e8
+    e( f) f4 f
+    f8 e e4 d %235
+    c r r
+    R2.*2
+    g'4\fE r r
+    R2.*2 %241
+    g2.~\p
+    g~
+    g~
+    g %245
+    e4 r e\f
+    d r d
+    c r f~
+    f e e~
+    e d d~ %250
+    d c c~
+    c8 d c4 h
+    c r g16 a h c
+    g4 r g16 a h c
+    g4 r g' %255
+    f e d
+    e r g,16 a h c
+    g8 g g g g16 a h c
+    g4 r r
+    R2. %260
+    g'2.~\p
+    g
+    g~\f
+    g2 f8 d
+    c4 g' h %265
+    c r r\fermata \bar "|." %266 finis
   }
 }

@@ -510,6 +510,200 @@ MagnificatCornoII = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \tempoMagnificat
-    
+    R1
+    r2 r4 r8 g'\fE
+    c,4 r c r
+    r2 c \noBreak
+    c4 c8 c c2\fermata \bar "||" %5
+    \time 3/4 \tempoMagnificatB c4 r r \noBreak
+    c r r
+    c r r
+    r g' c,8 c'
+    c4 g8 g g g %10
+    g4 r g
+    g( c8) g g g
+    g4 r c
+    c( d8) g, g g
+    c,4 r r %15
+    r r d'\p
+    c8 g g2
+    c,4\f c c
+    c r r
+    c' g g %20
+    g r g
+    c, r r
+    c r r
+    r g' c,8 c'
+    c4 g8 g g g %25
+    g4 r g
+    g8( c) c e, e g
+    e4 r c'
+    c r r
+    r r g %30
+    g r r
+    r r d'\p
+    c8( g) g2
+    c,4\f c c
+    c r r %35
+    c' g g
+    g r r
+    R2.
+    c,\p
+    g' %40
+    R
+    r4 c,\f c
+    c r r
+    R2.*9 %52
+    r4 g'\fE d'
+    g, r r
+    g r r %55
+    R2.
+    r4 d' d
+    g, r r
+    R2.
+    r4 d'\p d %60
+    g,\f r g
+    c d d
+    g, r r
+    R2.*5 %68
+    r4 r g\p
+    c2 d4 %70
+    g, r g
+    d' r d
+    g, r e\f
+    e r r
+    R2.*9 %83
+    r4 r8 e\fE e e
+    e4 r e %85
+    e r r
+    r r d'
+    g, r g
+    c, r r
+    g' g8 g g g %90
+    g4 r r
+    c c8 c c c
+    c4 c r
+    R2.*3 %96
+    r4 c c8. c16
+    c4 r r
+    R2.*4 %102
+    r4 d2
+    c4 c2
+    c4 r r %105
+    R2.*6 %111
+    r4 c\fE c
+    c r r
+    R2.*2 %115
+    r4 c,\p c
+    c2.
+    c4 r r
+    R2.*4 %122
+    d'2.\p
+    g,
+    d'4 r r %125
+    R2.*2
+    e,2.
+    c'
+    e,4 r r %130
+    R2.*5 %135
+    r4 r e'\f
+    d r r
+    r e, e
+    e r r
+    R2.*8 %147
+    c'2.\p
+    c4 r r
+    R2. %150
+    d
+    d4 r r
+    R2.*6 %158
+    r4 r e,\f
+    e r r %160
+    R2.*19 %179
+    r4 r g\fE %180
+    g r r
+    R2.
+    r4 d' d
+    d r r
+    r c c %185
+    r d d
+    g, r8 g c d
+    g,4 g'8 f e d
+    c,4 c8 c c c
+    c4 e g %190
+    e r r
+    g r r
+    r d' d
+    c r r
+    g r r %195
+    g r r
+    r e' e
+    e r e,
+    e r r
+    r c c %200
+    c r r
+    c r r
+    c r r
+    r g' g
+    g r g %205
+    c, r r
+    c r r
+    r g' c,8 c'
+    c4 g8 g g g
+    g4 r r %210
+    e e c'
+    c r r
+    r g g
+    c d d
+    g, r r %215
+    R2.
+    r4 d'\p d
+    g,\f r r
+    c, r r
+    c' d d %220
+    g, r r
+    g r r
+    g r r
+    r r d'
+    g, g8 g g g %225
+    c4 r g
+    c, r r
+    c r r
+    r g' c,8 c'
+    c4 g8 g g g %230
+    g4 r g
+    g8( c) c e, e g
+    e4 r c'
+    c r r
+    r r g %235
+    g r r
+    R2.*2
+    c,4 r r
+    R2.*2 %241
+    c2.\p
+    g'
+    c
+    g %245
+    c4\f r r
+    R2.
+    r4 c c
+    r e, e
+    r d' d %250
+    r c c
+    r8 d c4 d
+    e r g,8. c16
+    g4 r g8. c16
+    g4 r r %255
+    r g g
+    g r g8. c16
+    g8[ g g g] g8. c16
+    g4 r r
+    R2. %260
+    c,~\p
+    c2 g4
+    c2.~\f
+    c2 g4
+    c c' g %265
+    c, r r\fermata \bar "|." %266 finis
   }
 }

@@ -510,6 +510,200 @@ MagnificatCornoI = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \tempoMagnificat
-    
+    R1
+    r2 r4 r8 g''\fE
+    g4 r g r
+    r2 c, \noBreak
+    c4 c8 c c2\fermata \bar "||" %5
+    \time 3/4 \tempoMagnificatB c4 r r \noBreak
+    c r r
+    c r r
+    r d c8 e
+    e4 \pa d8 g, g g %10
+    g4 \pd r d'
+    \pa d( e8) g, g g
+    g4 \pd r e'
+    \pa e( f8) g, g g \pd
+    g4 r r %15
+    r r f'\p
+    e2( d4)
+    c\f c c
+    c r r
+    g'8 e d4 g %20
+    g r \pao g,
+    c r r
+    c r r
+    r d c8 e
+    e4 \pa d8 g, g g %25
+    g4 \pd r d'
+    d8( e) e c c c
+    c4 r \pa c
+    c \pd r r
+    r r g' %30
+    g r r
+    r r f\p
+    e2( d4)
+    c\f c c
+    c r r %35
+    g'8 e d4 g
+    g r r
+    R2.
+    c,\p
+    \pao g %40
+    R
+    r4 c\f c
+    c r r
+    R2.*9 %52
+    r4 d\fE \pao d
+    g r r
+    g r r %55
+    R2.
+    r4 \pa d d \pd
+    d r r
+    R2.
+    r4 \pa d\p d \pd %60
+    d\f r \pa g,
+    c d d \pd
+    d r r
+    R2.*5 %68
+    r4 r g\p
+    e2 \pao d4 %70
+    d r d
+    \pao d r \pao d
+    d r e\f
+    e r r
+    R2.*9 %83
+    r4 r8 e\fE e e
+    e4 r e %85
+    e r r
+    r r \pao d
+    d r d
+    c r r
+    g' g8 g g g %90
+    g4 r r
+    g g8 g g g
+    g4 f r
+    R2.*3 %96
+    r4 \pa c c8. c16
+    c4 \pd r r
+    R2.*4 %102
+    r4 g'2
+    g4 \pa c,2
+    c4 \pd r r %105
+    R2.*6 %111
+    r4 \pa c\fE c
+    c \pd r r
+    R2.*2 %115
+    r4 c\p c
+    c2.
+    c4 r r
+    R2.*4 %122
+    \pao d2.\p
+    g
+    \pao d4 r r %125
+    R2.*2
+    \pa e,2.
+    c'
+    e,4 \pd r r %130
+    R2.*5 %135
+    r4 r \pao e'\f
+    f r r
+    r e e
+    e r r
+    R2.*8 %147
+    \pa c2.\p
+    c4 \pd r r
+    R2. %150
+    \pa d
+    d4 \pd r r
+    R2.*6 %158
+    r4 r e\f
+    e r r %160
+    R2.*19 %179
+    r4 r g\fE %180
+    g r r
+    R2.
+    r4 \pa d d
+    d \pd r r
+    r e e %185
+    r \pa d d \pd
+    g r8 \pa g e d \pd
+    d4 \pa g8 f e d \pd
+    c4 c8 c c c
+    c4 c c %190
+    c r r
+    g' r r
+    r \pa d d \pd
+    e r r
+    g r r %195
+    g r r
+    r \pa e e
+    e \pd r e
+    e r r
+    r c c %200
+    c r r
+    c r r
+    c r r
+    r g' g
+    g r \pao g, %205
+    c r r
+    c r r
+    r d c8 e
+    e4 \pa d8 g, g g
+    g4 \pd r r %210
+    e' e \pao c
+    d r r
+    r g g
+    e \pa d d \pd
+    d r r %215
+    R2.
+    r4 \pa d\p d \pd
+    d\f r r
+    \once \partCombineChords e r r
+    \pa c d d %220
+    g, \pd r r
+    g' r r
+    g r r
+    r r \pao d
+    d \pa g,8 g g g %225
+    c4 \pd r \pao g
+    c r r
+    c r r
+    r d c8 e
+    e4 \pa d8 g, g g %230
+    g4 \pd r d'
+    d8( e) e c c c
+    c4 r \pa c
+    c \pd r r
+    r r g' %235
+    g r r
+    R2.*2
+    c,4 r r
+    R2.*2 %241
+    c2.\p
+    d
+    e
+    d %245
+    e4\f r r
+    R2.
+    r4 \pa c c \pd
+    r e e
+    r \pa d d \pd %250
+    r g g
+    r8 f e4 g
+    g r \pa g,8. c16
+    g4 \pd r \pa g8. c16
+    g4 \pd r r %255
+    r g' g
+    g r \pa g,8. c16
+    g8[ g g g] g8. c16
+    g4 \pd r r
+    R2. %260
+    c~\p
+    c2 d4
+    c2.~\f
+    c2 d4
+    c \pao c g' %265
+    c, r r\fermata \bar "|." %266 finis
   }
 }

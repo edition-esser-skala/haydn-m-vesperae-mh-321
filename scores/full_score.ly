@@ -392,7 +392,7 @@
   % }
   \bookpart {
     \section "6" "Magnificat"
-    % \addTocEntry
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -414,12 +414,12 @@
             \partCombine \MagnificatCornoI \MagnificatCornoII
           >>
           \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "clno" "C" "" "1, 2" }
+            \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
             \partCombine \MagnificatClarinoI \MagnificatClarinoII
           >>
         >>
         \new Staff {
-          \set Staff.instrumentName = \transposedTimpShort "C" "" "G" ""
+          \set Staff.instrumentName = "timp"
           \MagnificatTimpani
         }
         \new StaffGroup <<
@@ -464,14 +464,14 @@
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
-            \transpose c c,
+            % \transpose c c,
             \MagnificatOrgano
           }
         >>
         \new FiguredBass { \MagnificatBassFigures }
       >>
-      % \layout { }
-      \midi { \tempo 4 = 110 }
+      \layout { }
+      \midi { \tempo 4 = 105 }
     }
   }
 }

@@ -1470,14 +1470,14 @@ MagnificatOrgano = {
     g!4 g' h,
     c c8 d e f %145
     e4 c r
-    r \mvTrr g'\pp-\tutti-\senzaOrg f
+    r g'-\tutti-\senzaOrg f
     e d c
     f f e-\solo
     d a'-\tutti g %150
     fis e d
     g g fis-\solo
     e e r
-    r \mvTr c\pE-\colOrg c
+    r c-\colOrg c
     r a a %155
     r h h
     r ais ais
@@ -1683,7 +1683,7 @@ MagnificatBassFigures = \figuremode {
   r2 <6>4
   r2 <6>4
   r2.
-  r4 <6 5>2 %90
+  <[6]>4 <6 5>2 %90
   r2.
   <6 5->
   <9 4->4 <[8] 3>2
@@ -1698,8 +1698,8 @@ MagnificatBassFigures = \figuremode {
   <7>2 <6>4
   <_->2 <6>4
   <7->2.
-  r %105
-  r2 <[6]>4
+  r2 \bo <[6]>4 %105
+  r2 \bc <[6]>4
   r2.
   <7 5->2 <6 _->4
   r2.
@@ -1712,10 +1712,10 @@ MagnificatBassFigures = \figuremode {
   r2.
   <7->
   r2 r8 <6\\>
-  r2.
-  <6 4>4 \bo <[5] _+>8 \bc <[\t] \t> <5+> <\t> %120
-  r2.
-  <6 4>4 \bo <[5] _+>8 \bc <[\t] \t>4.
+  r4 \bo <[6]>8 <6\\> \bc <[6]>4
+  <6 4> \bo <[5] _+>8 \bc <[\t] \t> <5+> <\t> %120
+  r4 \bo <[6]>8 <6\\> \bc <[6]>4
+  <6 4> \bo <[5] _+>8 <\t \t> <5+> \bc <[\t]>
   r2.
   <_->
   r %125
@@ -1759,12 +1759,12 @@ MagnificatBassFigures = \figuremode {
   r2.
   <6 4>4. <\t \t>8 <6\\ 4> <\t \t>
   q4. <7 [5+ _+]> %165
-  <9+ 4>8 <[8] 3> r2
-  r <6>4
+  <9+ 4>8 \bo <[8] 3>4. <6>8 \bc <[6\\]>
+  r2 <6>4
   <6 4>4. \bo <[5] _+>8 \bc <[\t] \t>4
   r4 <7 _+>2
-  <9 4>4 <[8] 3>2 %170
-  <7>8 <6>4. q8 <6 _+>
+  <9 4>4 \bo <[8] 3>4. \bc <[6]>8 %170
+  <7> <6>4. q8 <6 _+>
   <7> <6>4. <\t>8 <6>
   <6\\>2 <6>4
   r <6 4> <[5] _+>
@@ -1780,8 +1780,8 @@ MagnificatBassFigures = \figuremode {
   <7>2 <6>4
   r2 <6>4 %185
   <_+>2.
-  r
-  r
+  r2 <[6]>4
+  r2.
   r
   r8 <3> \bassFigureExtendersOn q4.. q16 \bassFigureExtendersOff %190
   r2.
