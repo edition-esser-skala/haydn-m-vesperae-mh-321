@@ -4,7 +4,7 @@ composer:
 title: Vesperæ de Dominica
 id: MH 321
 genre: vesper
-scoring: S, A, T, B (solo), S, A, T, B (coro), [fl], 2 ob, fag,\\2 cor (\flat B\ basso/C basso/\flat E/F/G), 2 clno (C), 3 trb, timp (C–G), 2 vl, b, org
+scoring: S, A, T, B (solo), S, A, T, B (coro), [fl], 2 ob, fag,\\2 cor (\flat B\ basso/C/\flat E/F/G), 2 clno (C), 3 trb, timp (C–G), 2 vl, b, org
 license: cc-by-nc-sa-4.0
 sources:
   A1:
@@ -22,7 +22,9 @@ sources:
     rism: 840016639
     url: https://gallica.bnf.fr/ark:/12148/btv1b10072949m
     license: custom (free for non-commercial purposes)
-imslp:
+imslp: Vesperae_de_Dominica,_MH_321_(Haydn,_Michael)
 parts:
-  cor12: Corno I, II in \flat B basso/C basso/\flat E/F/G
+  cor12: Corno I, II in \flat B\ basso/C/\flat E/F/G
   ottoni: Clarino I, II in C\\Timpani in C–G
+  ob1: Flauto\\Oboe I
+  b: Fagotto\\Bassi

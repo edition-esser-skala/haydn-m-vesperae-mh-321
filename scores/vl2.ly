@@ -1,7 +1,7 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "b")
+#(define option-instrument-name "vl 2")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,8 +12,8 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Bassi"
-          \DixitOrgano
+          \set Staff.instrumentName = "Violino II"
+          \DixitViolinoII
         }
       >>
     }
@@ -23,19 +23,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff {
-          \set Staff.instrumentName = "fag"
-          \ConfiteborFagotto
-        }
-      >>
-    }
-  }
-  \bookpart {
-    \section "2" "Confitebor"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \ConfiteborOrgano }
+        \new Staff { \ConfiteborViolinoI }
       >>
     }
   }
@@ -44,7 +32,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \BeatusOrgano }
+        \new Staff { \BeatusViolinoI }
       >>
     }
   }
@@ -53,16 +41,17 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \LaudatePueriOrgano }
+        \new Staff { \LaudatePueriViolinoI }
       >>
     }
   }
   \bookpart {
     \section "5" "Laudate Dominum"
     \addTocEntry
+    \paper { page-count = #2 }
     \score {
       <<
-        \new Staff { \LaudateDominumOrgano }
+        \new Staff { \LaudateDominumViolinoI }
       >>
     }
   }
@@ -71,7 +60,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \MagnificatOrgano }
+        \new Staff { \MagnificatViolinoI }
       >>
     }
   }

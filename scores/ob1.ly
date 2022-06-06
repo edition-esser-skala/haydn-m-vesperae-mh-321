@@ -1,7 +1,7 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "b")
+#(define option-instrument-name "ob 1")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,30 +12,9 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Bassi"
-          \DixitOrgano
+          \set Staff.instrumentName = "Oboe I"
+          \DixitOboeI
         }
-      >>
-    }
-  }
-  \bookpart {
-    \section "2" "Confitebor"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff {
-          \set Staff.instrumentName = "fag"
-          \ConfiteborFagotto
-        }
-      >>
-    }
-  }
-  \bookpart {
-    \section "2" "Confitebor"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \ConfiteborOrgano }
       >>
     }
   }
@@ -44,7 +23,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \BeatusOrgano }
+        \new Staff { \BeatusOboeI }
       >>
     }
   }
@@ -53,7 +32,10 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \LaudatePueriOrgano }
+        \new Staff {
+          \set Staff.instrumentName = \markup \center-column { "fl" "vel" "ob" }
+          \LaudatePueriOboe
+        }
       >>
     }
   }
@@ -62,7 +44,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \LaudateDominumOrgano }
+        \new Staff { \LaudateDominumOboeI }
       >>
     }
   }
@@ -71,7 +53,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \MagnificatOrgano }
+        \new Staff { \MagnificatOboeI }
       >>
     }
   }

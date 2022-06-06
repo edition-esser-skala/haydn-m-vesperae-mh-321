@@ -2,7 +2,7 @@
 
 ConfiteborTromboneI = {
   \relative c' {
-    \clef treble
+    \clef alto
     \key es \major \time 4/4 \tempoConfitebor
     R1*5^\critnote %5
     \tiny r8 a'\fE a c f, g f4
